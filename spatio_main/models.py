@@ -8,9 +8,12 @@ class State(models.Model):
     name = models.CharField(max_length=255)
     created_at = models.DateTimeField()
     updated_at  = models.DateTimeField()
-    area = models.GeometryField()
+    area = models.GeometryField(null=True, srid=3785)
 
     objects = models.GeoManager()
+
+    def __unicode__(self):
+        return self.name
 
 
 class Community(models.Model):
@@ -21,9 +24,12 @@ class Community(models.Model):
     state = models.ForeignKey(State)
     created_at = models.DateTimeField()
     updated_at  = models.DateTimeField()
-    area = models.GeometryField()
+    area = models.GeometryField(srid=3785)
 
     objects = models.GeoManager()
+
+    def __unicode__(self):
+        return self.name
 
 
 class District(models.Model):
@@ -34,7 +40,10 @@ class District(models.Model):
     community = models.ForeignKey(Community)
     created_at = models.DateTimeField()
     updated_at  = models.DateTimeField()
-    area = models.GeometryField()
+    area = models.GeometryField(srid=3785)
 
     objects = models.GeoManager()
+
+    def __unicode__(self):
+        return self.name
 
