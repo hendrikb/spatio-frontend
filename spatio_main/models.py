@@ -47,3 +47,10 @@ class District(models.Model):
     def __unicode__(self):
         return self.name
 
+
+class PoliceReport(models.Model):
+    point = models.PointField()
+    title = models.CharField(max_length=200)
+
+    objects = models.GeoManager()
+
