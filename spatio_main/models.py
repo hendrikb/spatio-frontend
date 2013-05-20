@@ -10,10 +10,17 @@ class State(models.Model):
     updated_at  = models.DateTimeField()
     area = models.GeometryField(null=True, srid=3785)
 
+    @property
+    def bbox(self):
+        return self.area.envelope
+
+
     objects = models.GeoManager()
 
     def __unicode__(self):
         return self.name
+
+
 
 
 class Community(models.Model):
