@@ -56,8 +56,12 @@ class District(models.Model):
 
 
 class PoliceReport(models.Model):
-    point = models.PointField()
+    class Meta:
+        db_table = 'fub_oscs'
+        managed = False
+    location = models.GeometryField(null=True, srid=3785)
     title = models.CharField(max_length=200)
+    created_at = models.DateTimeField()
 
     objects = models.GeoManager()
 

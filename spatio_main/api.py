@@ -6,7 +6,7 @@ from spatio_main.models import State, Community, District, PoliceReport
 
 
 class StatesResource(ModelResource):
-    bbox = GeometryApiField('bbox', readonly=True)
+    bbox = GeometryApiField('bbox', readonly=True, null=True)
 
     class Meta:
         resource_name = 'states'
@@ -48,7 +48,7 @@ class PoliceReportResource(ModelResource):
         resource_name = 'reports'
         queryset = PoliceReport.objects.all()
         filtering = {
-            'point' : ALL
+            'location' : ALL
         }
 
 
