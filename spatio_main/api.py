@@ -4,6 +4,30 @@ from tastypie.contrib.gis.resources import ModelResource, GeometryApiField
 from tastypie.fields import ForeignKey
 from spatio_main.models import State, Community, District, PoliceReport
 
+import django
+import simplejson
+from django.core.serializers import json
+from tastypie.cache import SimpleCache
+
+from tastypie.serializers import Serializer
+
+
+class SerializerWithASCII(Serializer):
+
+    def to_json(self, data, options=None):
+        """
+        Given some Python data, produces JSON output.
+        """
+        options = options or {}
+        data = self.to_simple(data, options)
+
+        if django.get_version() >= '1.5':
+            return json.json.dumps(data, cls=json.DjangoJSONEncoder,
+                                   sort_keys=True, ensure_ascii=True)
+        else:
+            return simplejson.dumps(data, cls=json.DjangoJSONEncoder,
+                                    sort_keys=True, ensure_ascii=True)
+
 
 class StatesResource(ModelResource):
     bbox = GeometryApiField('bbox', readonly=True, null=True)
@@ -16,6 +40,8 @@ class StatesResource(ModelResource):
             'area' : ALL
 
         }
+        serializer = SerializerWithASCII()
+        cache = SimpleCache()
 
 
 class CommunitiesResource(ModelResource):
@@ -29,6 +55,8 @@ class CommunitiesResource(ModelResource):
             'state' : ALL_WITH_RELATIONS,
             'area' : ALL
         }
+        serializer = SerializerWithASCII()
+        cache = SimpleCache()
 
 
 class DistrictsResource(ModelResource):
@@ -42,6 +70,8 @@ class DistrictsResource(ModelResource):
             'community' : ALL_WITH_RELATIONS,
             'area' : ALL
         }
+        serializer = SerializerWithASCII()
+        cache = SimpleCache()
 
 class PoliceReportResource(ModelResource):
     class Meta:
@@ -50,6 +80,8 @@ class PoliceReportResource(ModelResource):
         filtering = {
             'location' : ALL
         }
+        serializer = SerializerWithASCII()
+        cache = SimpleCache()
 
 
 api = Api(api_name='v1')
