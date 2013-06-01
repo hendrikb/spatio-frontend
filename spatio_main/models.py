@@ -65,3 +65,9 @@ class PoliceReport(models.Model):
 
     objects = models.GeoManager()
 
+class HistoricData(models.Model):
+    class Meta:
+        db_table = 'fub_osc_history'
+        managed = False
+    name = models.CharField(max_length=500)
+    count = models.IntegerField()
