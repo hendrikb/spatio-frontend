@@ -67,7 +67,7 @@ class PoliceReport(models.Model):
 
 class HistoricData(models.Model):
     class Meta:
-        db_table = 'fub_osc_history'
+        db_table = 'fub_historic_oscs'
         managed = False
-    name = models.CharField(max_length=500)
-    count = models.IntegerField()
+    title = models.CharField(max_length=500)
+    crime_count = models.IntegerField()

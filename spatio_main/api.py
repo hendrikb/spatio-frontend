@@ -1,7 +1,7 @@
 from tastypie.api import Api
 from tastypie.constants import ALL, ALL_WITH_RELATIONS
 from tastypie.contrib.gis.resources import ModelResource, GeometryApiField
-from tastypie.fields import ForeignKey
+from tastypie.fields import ForeignKey, IntegerField, CharField
 from spatio_main.models import State, Community, District, PoliceReport, HistoricData
 
 import django
@@ -84,6 +84,8 @@ class PoliceReportResource(ModelResource):
         cache = SimpleCache()
 
 class HistoricDataResource(ModelResource):
+    count = IntegerField('crime_count')
+    name = CharField('title')
     class Meta:
         resource_name = "history"
         queryset = HistoricData.objects.all()
