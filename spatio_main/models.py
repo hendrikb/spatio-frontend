@@ -73,3 +73,13 @@ class HistoricData(models.Model):
     title = models.CharField(max_length=500)
     crime_count = models.IntegerField()
     uuid = models.CharField(max_length=40, primary_key=True)
+
+
+class WlanHotspot(models.Model):
+    class Meta:
+        db_table = 'wlan_demos'
+        managed = False
+    location = models.GeometryField(null=True, srid=3785)
+    title = models.CharField(max_length=200)
+    created_at = models.DateTimeField()
+    uuid = models.CharField(max_length=40, primary_key=True)

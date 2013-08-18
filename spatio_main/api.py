@@ -2,7 +2,7 @@ from tastypie.api import Api
 from tastypie.constants import ALL, ALL_WITH_RELATIONS
 from tastypie.contrib.gis.resources import ModelResource, GeometryApiField
 from tastypie.fields import ForeignKey, IntegerField, CharField
-from spatio_main.models import State, Community, District, PoliceReport, HistoricData
+from spatio_main.models import State, Community, District, PoliceReport, HistoricData, WlanHotspot
 
 import django
 import simplejson
@@ -93,9 +93,20 @@ class HistoricDataResource(ModelResource):
         cache = SimpleCache()
 
 
+class WlanHotspotResource(ModelResource):
+    class Meta:
+        resource_name = 'hotspots'
+        queryset = WlanHotspot.objects.all()
+        filtering = {
+            'location' : ALL
+        }
+        serializer = SerializerWithASCII()
+        cache = SimpleCache()
+
 api = Api(api_name='v1')
 api.register(DistrictsResource())
 api.register(CommunitiesResource())
 api.register(StatesResource())
 api.register(PoliceReportResource())
 api.register(HistoricDataResource())
+api.register(WlanHotspotResource())
