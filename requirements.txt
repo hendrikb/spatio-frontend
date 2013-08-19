@@ -1,0 +1,7 @@
+django>=1.5.1
+django-tastypie>=0.9.12
+psycopg2
+south
+gunicorn
+gevent
+python-memcached
