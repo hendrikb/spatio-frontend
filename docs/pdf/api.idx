@@ -1,0 +1,59 @@
+\indexentry{spatio\_main \textit{(package)}|(hyperpage}{3}
+\indexentry{spatio\_main \textit{(package)}|)}{3}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}|(hyperpage}{4}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.SerializerWithASCII \textit{(class)}|(hyperpage}{4}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.SerializerWithASCII \textit{(class)}|)}{5}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.StatesResource \textit{(class)}|(hyperpage}{5}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.StatesResource \textit{(class)}|)}{6}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.CommunitiesResource \textit{(class)}|(hyperpage}{6}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.CommunitiesResource \textit{(class)}|)}{8}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.DistrictsResource \textit{(class)}|(hyperpage}{8}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.DistrictsResource \textit{(class)}|)}{9}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.PoliceReportResource \textit{(class)}|(hyperpage}{9}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.PoliceReportResource \textit{(class)}|)}{11}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.HistoricDataResource \textit{(class)}|(hyperpage}{11}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.HistoricDataResource \textit{(class)}|)}{12}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.WlanHotspotResource \textit{(class)}|(hyperpage}{12}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}!spatio\_main.api.WlanHotspotResource \textit{(class)}|)}{14}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.api \textit{(module)}|)}{14}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.migrations \textit{(package)}|(hyperpage}{15}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.migrations \textit{(package)}|)}{15}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}|(hyperpage}{16}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.State \textit{(class)}|(hyperpage}{16}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.State \textit{(class)}!spatio\_main.models.State.objects \textit{(method)}|hyperpage}{16}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.State \textit{(class)}!spatio\_main.models.State.\_\_unicode\_\_ \textit{(method)}|hyperpage}{16}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.State \textit{(class)}!spatio\_main.models.State.get\_next\_by\_created\_at \textit{(method)}|hyperpage}{16}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.State \textit{(class)}!spatio\_main.models.State.get\_next\_by\_updated\_at \textit{(method)}|hyperpage}{16}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.State \textit{(class)}!spatio\_main.models.State.get\_previous\_by\_created\_at \textit{(method)}|hyperpage}{16}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.State \textit{(class)}!spatio\_main.models.State.get\_previous\_by\_updated\_at \textit{(method)}|hyperpage}{16}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.State \textit{(class)}|)}{17}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.Community \textit{(class)}|(hyperpage}{17}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.Community \textit{(class)}!spatio\_main.models.Community.objects \textit{(method)}|hyperpage}{17}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.Community \textit{(class)}!spatio\_main.models.Community.\_\_unicode\_\_ \textit{(method)}|hyperpage}{17}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.Community \textit{(class)}!spatio\_main.models.Community.get\_next\_by\_created\_at \textit{(method)}|hyperpage}{17}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.Community \textit{(class)}!spatio\_main.models.Community.get\_next\_by\_updated\_at \textit{(method)}|hyperpage}{18}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.Community \textit{(class)}!spatio\_main.models.Community.get\_previous\_by\_created\_at \textit{(method)}|hyperpage}{18}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.Community \textit{(class)}!spatio\_main.models.Community.get\_previous\_by\_updated\_at \textit{(method)}|hyperpage}{18}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.Community \textit{(class)}|)}{18}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.District \textit{(class)}|(hyperpage}{18}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.District \textit{(class)}!spatio\_main.models.District.objects \textit{(method)}|hyperpage}{19}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.District \textit{(class)}!spatio\_main.models.District.\_\_unicode\_\_ \textit{(method)}|hyperpage}{19}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.District \textit{(class)}!spatio\_main.models.District.get\_next\_by\_created\_at \textit{(method)}|hyperpage}{19}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.District \textit{(class)}!spatio\_main.models.District.get\_next\_by\_updated\_at \textit{(method)}|hyperpage}{19}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.District \textit{(class)}!spatio\_main.models.District.get\_previous\_by\_created\_at \textit{(method)}|hyperpage}{19}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.District \textit{(class)}!spatio\_main.models.District.get\_previous\_by\_updated\_at \textit{(method)}|hyperpage}{19}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.District \textit{(class)}|)}{20}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.PoliceReport \textit{(class)}|(hyperpage}{20}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.PoliceReport \textit{(class)}!spatio\_main.models.PoliceReport.objects \textit{(method)}|hyperpage}{20}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.PoliceReport \textit{(class)}!spatio\_main.models.PoliceReport.get\_next\_by\_created\_at \textit{(method)}|hyperpage}{20}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.PoliceReport \textit{(class)}!spatio\_main.models.PoliceReport.get\_previous\_by\_created\_at \textit{(method)}|hyperpage}{20}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.PoliceReport \textit{(class)}|)}{21}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.HistoricData \textit{(class)}|(hyperpage}{21}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.HistoricData \textit{(class)}!spatio\_main.models.HistoricData.objects \textit{(method)}|hyperpage}{21}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.HistoricData \textit{(class)}|)}{22}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.WlanHotspot \textit{(class)}|(hyperpage}{22}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.WlanHotspot \textit{(class)}!spatio\_main.models.WlanHotspot.get\_next\_by\_created\_at \textit{(method)}|hyperpage}{22}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.WlanHotspot \textit{(class)}!spatio\_main.models.WlanHotspot.get\_previous\_by\_created\_at \textit{(method)}|hyperpage}{22}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.WlanHotspot \textit{(class)}!spatio\_main.models.WlanHotspot.objects \textit{(method)}|hyperpage}{22}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}!spatio\_main.models.WlanHotspot \textit{(class)}|)}{23}
+\indexentry{spatio\_main \textit{(package)}!spatio\_main.models \textit{(module)}|)}{23}
