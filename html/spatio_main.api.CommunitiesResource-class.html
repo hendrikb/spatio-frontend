@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>spatio_main.api.CommunitiesResource</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="spatio_main-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="spatio_main-module.html">Package&nbsp;spatio_main</a> ::
+        <a href="spatio_main.api-module.html">Module&nbsp;api</a> ::
+        Class&nbsp;CommunitiesResource
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="spatio_main.api.CommunitiesResource-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class CommunitiesResource</h1><p class="nomargin-top"><span class="codelink"><a href="spatio_main.api-pysrc.html#CommunitiesResource">source&nbsp;code</a></span></p>
+<center>
+<center>  <map id="uml_class_diagram_for_spatio_m" name="uml_class_diagram_for_spatio_m">
+<area shape="rect" id="node7" href="javascript:void(0);" title="Overrides default field handling to support custom GeometryApiField." alt="" coords="17,743,472,761"/>
+<area shape="rect" id="node7" href="javascript:void(0);" title="Turn the string ``value`` into a python object." alt="" coords="17,761,472,780"/>
+<area shape="rect" id="node1" href="javascript:void(0);" title="ModelResource subclass that handles geometry fields as GeoJSON." alt="" coords="5,710,483,786"/>
+<area shape="rect" id="node6" href="spatio_main.api.CommunitiesResource-class.html#state" title="spatio_main.api.CommunitiesResource.state" alt="" coords="177,831,312,849"/>
+<area shape="rect" id="node6" href="spatio_main.api.CommunitiesResource.Meta-class.html" title="spatio_main.api.CommunitiesResource.Meta" alt="" coords="177,849,312,868"/>
+<area shape="rect" id="node6" href="spatio_main.api.CommunitiesResource-class.html#base_fields" title="spatio_main.api.CommunitiesResource.base_fields" alt="" coords="177,868,312,887"/>
+<area shape="rect" id="node6" href="spatio_main.api.CommunitiesResource-class.html#declared_fields" title="spatio_main.api.CommunitiesResource.declared_fields" alt="" coords="177,887,312,905"/>
+<area shape="rect" id="node2" href="spatio_main.api.CommunitiesResource-class.html" title="spatio_main.api.CommunitiesResource" alt="" coords="165,806,323,919"/>
+<area shape="rect" id="node8" href="tastypie.resources.ModelDeclarativeMetaclass-class.html" title="tastypie.resources.ModelResource.__metaclass__" alt="" coords="44,383,447,401"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="Given a Django model field, return if it should be included in the &#160;contributed ApiFields." alt="" coords="44,404,447,423"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="Given any explicit fields to include and fields to exclude, add additional &#160;fields based on the associated model." alt="" coords="44,423,447,441"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="Given a field name, a optional filter type and an optional list of &#160;additional relations, determine if a field can be filtered on." alt="" coords="44,441,447,460"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="Given a dictionary of filters, create the necessary ORM&#45;level filters." alt="" coords="44,460,447,479"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="Given a dictionary of options, apply some ORM&#45;level sorting to the provided ``QuerySet``." alt="" coords="44,479,447,497"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="An ORM&#45;specific implementation of ``apply_filters``." alt="" coords="44,497,447,516"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="An ORM&#45;specific implementation of ``get_object_list``." alt="" coords="44,516,447,535"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="A ORM&#45;specific implementation of ``obj_get_list``." alt="" coords="44,535,447,553"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="A ORM&#45;specific implementation of ``obj_get``." alt="" coords="44,553,447,572"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="A ORM&#45;specific implementation of ``obj_create``." alt="" coords="44,572,447,591"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="Kwargs here represent uri identifiers Ex: /repos/&lt;user_id&gt;/&lt;repo_name&gt;/ We &#160;need to turn those identifiers into Python objects for generating lookup &#160;parameters that can find them in the DB" alt="" coords="44,591,447,609"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="A ORM&#45;specific implementation of ``obj_update``." alt="" coords="44,609,447,628"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="A ORM&#45;specific implementation of ``obj_delete_list``." alt="" coords="44,628,447,647"/>
+<area shape="rect" id="node8" href="javascript:void(0);" title="Given a ``Bundle`` or an object (typically a ``Model`` instance), it &#160;returns the extra kwargs needed to generate a detail URI." alt="" coords="44,665,447,684"/>
+<area shape="rect" id="node3" href="javascript:void(0);" title="A subclass of ``Resource`` designed to work with Django&#39;s ``Models``." alt="" coords="32,358,459,690"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="The endpoints this ``Resource`` responds to." alt="" coords="79,31,411,49"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="x.__init__(...) initializes x; see help(type(x)) for signature" alt="" coords="79,52,411,71"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="tastypie.resources.Resource.__getattr__" alt="" coords="79,71,411,89"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="Wraps methods so they can be called in a more functional way as well as &#160;handling exceptions better." alt="" coords="79,89,411,108"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="The standard URLs this ``Resource`` should respond to." alt="" coords="79,108,411,127"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="Deprecated." alt="" coords="79,127,411,145"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="A hook for adding your own URLs or matching before the default URLs." alt="" coords="79,145,411,164"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="Used to determine the desired format." alt="" coords="79,164,411,183"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="Given a request, data and a desired format, produces a serialized version &#160;suitable for transfer over the wire." alt="" coords="79,183,411,201"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="Given a request, data and a format, deserializes the given data." alt="" coords="79,201,411,220"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="A hook to alter list data just before it gets serialized &amp; sent to the &#160;user." alt="" coords="79,220,411,239"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="A hook to alter detail data just before it gets serialized &amp; sent to the &#160;user." alt="" coords="79,239,411,257"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="A hook to alter list data just after it has been received from the user &amp; &#160;gets deserialized." alt="" coords="79,257,411,276"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="A hook to alter detail data just after it has been received from the user &amp; gets deserialized." alt="" coords="79,276,411,295"/>
+<area shape="rect" id="node9" href="javascript:void(0);" title="Returns a serialized list of resources based on the identifiers from the &#160;URL." alt="" coords="79,313,411,332"/>
+<area shape="rect" id="node4" href="javascript:void(0);" title="Handles the data, request dispatch and responding to requests." alt="" coords="67,6,421,338"/>
+</map>
+  <img src="uml_class_diagram_for_spatio_m.gif" alt='' usemap="#uml_class_diagram_for_spatio_m" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<!-- ==================== NESTED CLASSES ==================== -->
+<a name="section-NestedClasses"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Nested Classes</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-NestedClasses"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="spatio_main.api.CommunitiesResource.Meta-class.html" class="summary-name">Meta</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.ModelResource</code></b>:
+      <code><a href="tastypie.resources.ModelDeclarativeMetaclass-class.html">__metaclass__</a></code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.contrib.gis.resources.ModelResource</code></b>:
+      <code>filter_value_to_python</code>
+      </p>
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.ModelResource</code></b>:
+      <code>apply_filters</code>,
+      <code>apply_sorting</code>,
+      <code>build_filters</code>,
+      <code>check_filtering</code>,
+      <code>create_identifier</code>,
+      <code>detail_uri_kwargs</code>,
+      <code>get_object_list</code>,
+      <code>lookup_kwargs_with_identifiers</code>,
+      <code>obj_create</code>,
+      <code>obj_delete</code>,
+      <code>obj_delete_list</code>,
+      <code>obj_delete_list_for_update</code>,
+      <code>obj_get</code>,
+      <code>obj_get_list</code>,
+      <code>obj_update</code>,
+      <code>patch_list</code>,
+      <code>rollback</code>,
+      <code>save</code>,
+      <code>save_m2m</code>,
+      <code>save_related</code>
+      </p>
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.Resource</code></b>:
+      <code>__getattr__</code>,
+      <code>__init__</code>,
+      <code>alter_deserialized_detail_data</code>,
+      <code>alter_deserialized_list_data</code>,
+      <code>alter_detail_data_to_serialize</code>,
+      <code>alter_list_data_to_serialize</code>,
+      <code>apply_authorization_limits</code>,
+      <code>authorized_create_detail</code>,
+      <code>authorized_create_list</code>,
+      <code>authorized_delete_detail</code>,
+      <code>authorized_delete_list</code>,
+      <code>authorized_read_detail</code>,
+      <code>authorized_read_list</code>,
+      <code>authorized_update_detail</code>,
+      <code>authorized_update_list</code>,
+      <code>base_urls</code>,
+      <code>build_bundle</code>,
+      <code>build_schema</code>,
+      <code>cached_obj_get</code>,
+      <code>cached_obj_get_list</code>,
+      <code>can_create</code>,
+      <code>can_delete</code>,
+      <code>can_update</code>,
+      <code>create_response</code>,
+      <code>dehydrate</code>,
+      <code>dehydrate_resource_uri</code>,
+      <code>delete_detail</code>,
+      <code>delete_list</code>,
+      <code>deserialize</code>,
+      <code>determine_format</code>,
+      <code>dispatch</code>,
+      <code>dispatch_detail</code>,
+      <code>dispatch_list</code>,
+      <code>error_response</code>,
+      <code>full_dehydrate</code>,
+      <code>full_hydrate</code>,
+      <code>generate_cache_key</code>,
+      <code>get_bundle_detail_data</code>,
+      <code>get_detail</code>,
+      <code>get_list</code>,
+      <code>get_multiple</code>,
+      <code>get_resource_uri</code>,
+      <code>get_schema</code>,
+      <code>get_via_uri</code>,
+      <code>hydrate</code>,
+      <code>hydrate_m2m</code>,
+      <code>is_authenticated</code>,
+      <code>is_valid</code>,
+      <code>log_throttled_access</code>,
+      <code>method_check</code>,
+      <code>override_urls</code>,
+      <code>patch_detail</code>,
+      <code>post_detail</code>,
+      <code>post_list</code>,
+      <code>prepend_urls</code>,
+      <code>put_detail</code>,
+      <code>put_list</code>,
+      <code>remove_api_resource_names</code>,
+      <code>resource_uri_kwargs</code>,
+      <code>serialize</code>,
+      <code>throttle_check</code>,
+      <code>unauthorized_result</code>,
+      <code>update_in_place</code>,
+      <code>wrap_view</code>
+      </p>
+    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.Resource</code></b> (private):
+      <code>_build_reverse_url</code>,
+      <code>_handle_500</code>
+      </p></div>
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__delattr__</code>,
+      <code>__format__</code>,
+      <code>__getattribute__</code>,
+      <code>__hash__</code>,
+      <code>__new__</code>,
+      <code>__reduce__</code>,
+      <code>__reduce_ex__</code>,
+      <code>__repr__</code>,
+      <code>__setattr__</code>,
+      <code>__sizeof__</code>,
+      <code>__str__</code>,
+      <code>__subclasshook__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS METHODS ==================== -->
+<a name="section-ClassMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.contrib.gis.resources.ModelResource</code></b>:
+      <code>api_field_from_django_field</code>
+      </p>
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.ModelResource</code></b>:
+      <code>get_fields</code>,
+      <code>should_skip_field</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLES ==================== -->
+<a name="section-ClassVariables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="state"></a><span class="summary-name">state</span> = <code title="ForeignKey(StatesResource, 'state')">ForeignKey(StatesResource, 'state')</code>
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="_meta"></a><span class="summary-name">_meta</span> = <code title="&lt;tastypie.resources.ResourceOptions object at 0xabd092c&gt;">&lt;tastypie.resources.ResourceOptions object at 0xabd092c&gt;</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="spatio_main.api.CommunitiesResource-class.html#base_fields" class="summary-name">base_fields</a> = <code title="{'area': &lt;tastypie.contrib.gis.resources.GeometryApiField object at 0x\
+abd0a2c&gt;,
+ 'created_at': &lt;tastypie.fields.DateTimeField object at 0xabd09ec&gt;,
+ u'id': &lt;tastypie.fields.IntegerField object at 0xabd098c&gt;,
+ 'name': &lt;tastypie.fields.CharField object at 0xabd09ac&gt;,
+ 'resource_uri': &lt;tastypie.fields.CharField object at 0xabd09cc&gt;,
+ 'state': &lt;tastypie.fields.ForeignKey object at 0xabd034c&gt;,
+ 'updated_at': &lt;tastypie.fields.DateTimeField object at 0xabd0a0c&gt;}"><code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">area</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.contrib.gis.resources.Geometr<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="spatio_main.api.CommunitiesResource-class.html#declared_fields" class="summary-name">declared_fields</a> = <code title="{'state': &lt;tastypie.fields.ForeignKey object at 0xabd034c&gt;}"><code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">state</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.ForeignKey object<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.Resource</code></b>:
+      <code>urls</code>
+      </p>
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__class__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLE DETAILS ==================== -->
+<a name="section-ClassVariableDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variable Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariableDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="base_fields"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">base_fields</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+<code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">area</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.contrib.gis.resources.GeometryApiField object at 0x<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+abd0a2c&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">created_at</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.DateTimeField object at 0xabd09ec&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">u'</code><code class="variable-string">id</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.IntegerField object at 0xabd098c&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">name</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.CharField object at 0xabd09ac&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">resource_uri</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.CharField object at 0xabd09cc&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">state</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.ForeignKey object at 0xabd034c&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">updated_at</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.DateTimeField object at 0xabd0a0c&gt;<code class="variable-group">}</code>
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="declared_fields"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">declared_fields</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+<code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">state</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.ForeignKey object at 0xabd034c&gt;<code class="variable-group">}</code>
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="spatio_main-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Sat Sep 14 11:46:06 2013
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
