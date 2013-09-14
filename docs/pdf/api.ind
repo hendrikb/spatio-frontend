@@ -1,0 +1,34 @@
+\begin{theindex}
+
+  \item spatio\_main \textit{(package)}, \hyperpage{2}
+    \subitem spatio\_main.api \textit{(module)}, \hyperpage{3--13}
+      \subsubitem spatio\_main.api.CommunitiesResource \textit{(class)}, 
+		\hyperpage{5--7}
+      \subsubitem spatio\_main.api.DistrictsResource \textit{(class)}, 
+		\hyperpage{7--8}
+      \subsubitem spatio\_main.api.HistoricDataResource \textit{(class)}, 
+		\hyperpage{10--11}
+      \subsubitem spatio\_main.api.PoliceReportResource \textit{(class)}, 
+		\hyperpage{8--10}
+      \subsubitem spatio\_main.api.SerializerWithASCII \textit{(class)}, 
+		\hyperpage{3--4}
+      \subsubitem spatio\_main.api.StatesResource \textit{(class)}, 
+		\hyperpage{4--5}
+      \subsubitem spatio\_main.api.WlanHotspotResource \textit{(class)}, 
+		\hyperpage{11--13}
+    \subitem spatio\_main.migrations \textit{(package)}, \hyperpage{14}
+    \subitem spatio\_main.models \textit{(module)}, \hyperpage{15--22}
+      \subsubitem spatio\_main.models.Community \textit{(class)}, 
+		\hyperpage{16--17}
+      \subsubitem spatio\_main.models.District \textit{(class)}, 
+		\hyperpage{17--19}
+      \subsubitem spatio\_main.models.HistoricData \textit{(class)}, 
+		\hyperpage{20--21}
+      \subsubitem spatio\_main.models.PoliceReport \textit{(class)}, 
+		\hyperpage{19--20}
+      \subsubitem spatio\_main.models.State \textit{(class)}, 
+		\hyperpage{15--16}
+      \subsubitem spatio\_main.models.WlanHotspot \textit{(class)}, 
+		\hyperpage{21--22}
+
+\end{theindex}

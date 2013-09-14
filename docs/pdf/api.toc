@@ -1,0 +1,63 @@
+\contentsline {section}{Contents}{1}{section*.1}
+\contentsline {section}{\numberline {1}Package spatio\_main}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Modules}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Variables}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Module spatio\_main.api}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Variables}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Class SerializerWithASCII}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Methods}{4}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Properties}{4}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Class Variables}{4}{subsubsection.2.2.3}
+\contentsline {subsection}{\numberline {2.3}Class StatesResource}{5}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Methods}{5}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Properties}{6}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Class Variables}{6}{subsubsection.2.3.3}
+\contentsline {subsection}{\numberline {2.4}Class CommunitiesResource}{6}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Methods}{6}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Properties}{7}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Class Variables}{7}{subsubsection.2.4.3}
+\contentsline {subsection}{\numberline {2.5}Class DistrictsResource}{8}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.5.1}Methods}{8}{subsubsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.2}Properties}{9}{subsubsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.3}Class Variables}{9}{subsubsection.2.5.3}
+\contentsline {subsection}{\numberline {2.6}Class PoliceReportResource}{9}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Methods}{10}{subsubsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}Properties}{10}{subsubsection.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.3}Class Variables}{10}{subsubsection.2.6.3}
+\contentsline {subsection}{\numberline {2.7}Class HistoricDataResource}{11}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Methods}{11}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Properties}{12}{subsubsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.3}Class Variables}{12}{subsubsection.2.7.3}
+\contentsline {subsection}{\numberline {2.8}Class WlanHotspotResource}{13}{subsection.2.8}
+\contentsline {subsubsection}{\numberline {2.8.1}Methods}{13}{subsubsection.2.8.1}
+\contentsline {subsubsection}{\numberline {2.8.2}Properties}{14}{subsubsection.2.8.2}
+\contentsline {subsubsection}{\numberline {2.8.3}Class Variables}{14}{subsubsection.2.8.3}
+\contentsline {section}{\numberline {3}Package spatio\_main.migrations}{15}{section.3}
+\contentsline {subsection}{\numberline {3.1}Variables}{15}{subsection.3.1}
+\contentsline {section}{\numberline {4}Module spatio\_main.models}{16}{section.4}
+\contentsline {subsection}{\numberline {4.1}Variables}{16}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Class State}{16}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Methods}{16}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Properties}{17}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Class Variables}{17}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}Class Community}{17}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Methods}{17}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Properties}{18}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Class Variables}{18}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}Class District}{19}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Methods}{19}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Properties}{19}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Class Variables}{20}{subsubsection.4.4.3}
+\contentsline {subsection}{\numberline {4.5}Class PoliceReport}{20}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Methods}{20}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Properties}{21}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Class Variables}{21}{subsubsection.4.5.3}
+\contentsline {subsection}{\numberline {4.6}Class HistoricData}{21}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}Methods}{21}{subsubsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.2}Properties}{22}{subsubsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.3}Class Variables}{22}{subsubsection.4.6.3}
+\contentsline {subsection}{\numberline {4.7}Class WlanHotspot}{22}{subsection.4.7}
+\contentsline {subsubsection}{\numberline {4.7.1}Methods}{22}{subsubsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.2}Properties}{23}{subsubsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.3}Class Variables}{23}{subsubsection.4.7.3}
+\contentsline {section}{Index}{24}{section*.2}
