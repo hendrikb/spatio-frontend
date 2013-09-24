@@ -28,36 +28,40 @@
 \BOOKMARK [3][-]{subsubsection.2.7.1}{Methods}{subsection.2.7}% 28
 \BOOKMARK [3][-]{subsubsection.2.7.2}{Properties}{subsection.2.7}% 29
 \BOOKMARK [3][-]{subsubsection.2.7.3}{Class Variables}{subsection.2.7}% 30
-\BOOKMARK [2][-]{subsection.2.8}{Class WlanHotspotResource}{section.2}% 31
-\BOOKMARK [3][-]{subsubsection.2.8.1}{Methods}{subsection.2.8}% 32
-\BOOKMARK [3][-]{subsubsection.2.8.2}{Properties}{subsection.2.8}% 33
-\BOOKMARK [3][-]{subsubsection.2.8.3}{Class Variables}{subsection.2.8}% 34
-\BOOKMARK [1][-]{section.3}{Package spatio\137main.migrations}{}% 35
-\BOOKMARK [2][-]{subsection.3.1}{Variables}{section.3}% 36
-\BOOKMARK [1][-]{section.4}{Module spatio\137main.models}{}% 37
-\BOOKMARK [2][-]{subsection.4.1}{Variables}{section.4}% 38
-\BOOKMARK [2][-]{subsection.4.2}{Class State}{section.4}% 39
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Methods}{subsection.4.2}% 40
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Properties}{subsection.4.2}% 41
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Class Variables}{subsection.4.2}% 42
-\BOOKMARK [2][-]{subsection.4.3}{Class Community}{section.4}% 43
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Methods}{subsection.4.3}% 44
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Properties}{subsection.4.3}% 45
-\BOOKMARK [3][-]{subsubsection.4.3.3}{Class Variables}{subsection.4.3}% 46
-\BOOKMARK [2][-]{subsection.4.4}{Class District}{section.4}% 47
-\BOOKMARK [3][-]{subsubsection.4.4.1}{Methods}{subsection.4.4}% 48
-\BOOKMARK [3][-]{subsubsection.4.4.2}{Properties}{subsection.4.4}% 49
-\BOOKMARK [3][-]{subsubsection.4.4.3}{Class Variables}{subsection.4.4}% 50
-\BOOKMARK [2][-]{subsection.4.5}{Class PoliceReport}{section.4}% 51
-\BOOKMARK [3][-]{subsubsection.4.5.1}{Methods}{subsection.4.5}% 52
-\BOOKMARK [3][-]{subsubsection.4.5.2}{Properties}{subsection.4.5}% 53
-\BOOKMARK [3][-]{subsubsection.4.5.3}{Class Variables}{subsection.4.5}% 54
-\BOOKMARK [2][-]{subsection.4.6}{Class HistoricData}{section.4}% 55
-\BOOKMARK [3][-]{subsubsection.4.6.1}{Methods}{subsection.4.6}% 56
-\BOOKMARK [3][-]{subsubsection.4.6.2}{Properties}{subsection.4.6}% 57
-\BOOKMARK [3][-]{subsubsection.4.6.3}{Class Variables}{subsection.4.6}% 58
-\BOOKMARK [2][-]{subsection.4.7}{Class WlanHotspot}{section.4}% 59
-\BOOKMARK [3][-]{subsubsection.4.7.1}{Methods}{subsection.4.7}% 60
-\BOOKMARK [3][-]{subsubsection.4.7.2}{Properties}{subsection.4.7}% 61
-\BOOKMARK [3][-]{subsubsection.4.7.3}{Class Variables}{subsection.4.7}% 62
-\BOOKMARK [1][-]{section*.2}{Index}{}% 63
+\BOOKMARK [1][-]{section.3}{Package spatio\137main.migrations}{}% 31
+\BOOKMARK [2][-]{subsection.3.1}{Variables}{section.3}% 32
+\BOOKMARK [1][-]{section.4}{Module spatio\137main.models}{}% 33
+\BOOKMARK [2][-]{subsection.4.1}{Variables}{section.4}% 34
+\BOOKMARK [2][-]{subsection.4.2}{Class State}{section.4}% 35
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Methods}{subsection.4.2}% 36
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Properties}{subsection.4.2}% 37
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Class Variables}{subsection.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.3}{Class Community}{section.4}% 39
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Methods}{subsection.4.3}% 40
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Properties}{subsection.4.3}% 41
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Class Variables}{subsection.4.3}% 42
+\BOOKMARK [2][-]{subsection.4.4}{Class District}{section.4}% 43
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Methods}{subsection.4.4}% 44
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Properties}{subsection.4.4}% 45
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Class Variables}{subsection.4.4}% 46
+\BOOKMARK [2][-]{subsection.4.5}{Class PoliceReport}{section.4}% 47
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Methods}{subsection.4.5}% 48
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Properties}{subsection.4.5}% 49
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Class Variables}{subsection.4.5}% 50
+\BOOKMARK [2][-]{subsection.4.6}{Class HistoricData}{section.4}% 51
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Methods}{subsection.4.6}% 52
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Properties}{subsection.4.6}% 53
+\BOOKMARK [3][-]{subsubsection.4.6.3}{Class Variables}{subsection.4.6}% 54
+\BOOKMARK [1][-]{section.5}{Module spatio\137main.tests}{}% 55
+\BOOKMARK [2][-]{subsection.5.1}{Variables}{section.5}% 56
+\BOOKMARK [2][-]{subsection.5.2}{Class SerializerTest}{section.5}% 57
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Methods}{subsection.5.2}% 58
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Properties}{subsection.5.2}% 59
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Class Variables}{subsection.5.2}% 60
+\BOOKMARK [2][-]{subsection.5.3}{Class ModelTests}{section.5}% 61
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Methods}{subsection.5.3}% 62
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Properties}{subsection.5.3}% 63
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Class Variables}{subsection.5.3}% 64
+\BOOKMARK [1][-]{section.6}{Module spatio\137main.views}{}% 65
+\BOOKMARK [2][-]{subsection.6.1}{Variables}{section.6}% 66
+\BOOKMARK [1][-]{section*.2}{Index}{}% 67

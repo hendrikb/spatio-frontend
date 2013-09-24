@@ -30,7 +30,12 @@
       <th>&nbsp;&nbsp;&nbsp;<a
         href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
-      <th class="navbar" width="100%"></th>
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Spatio-Frontend</th>
+          </tr></table></th>
   </tr>
 </table>
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -84,25 +89,22 @@ spatio_main.api.StatesResource.Meta.cache" class="py-name" href="#" onclick="ret
 <a name="L21"></a><tt class="py-lineno"> 21</tt>  <tt class="py-line">        <tt class="py-name">options</tt> <tt class="py-op">=</tt> <tt class="py-name">options</tt> <tt class="py-keyword">or</tt> <tt class="py-op">{</tt><tt class="py-op">}</tt> </tt>
 <a name="L22"></a><tt class="py-lineno"> 22</tt>  <tt class="py-line">        <tt class="py-name">data</tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">to_simple</tt><tt class="py-op">(</tt><tt class="py-name">data</tt><tt class="py-op">,</tt> <tt class="py-name">options</tt><tt class="py-op">)</tt> </tt>
 <a name="L23"></a><tt class="py-lineno"> 23</tt>  <tt class="py-line"> </tt>
-<a name="L24"></a><tt class="py-lineno"> 24</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">django</tt><tt class="py-op">.</tt><tt class="py-name">get_version</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> <tt class="py-op">&gt;=</tt> <tt class="py-string">'1.5'</tt><tt class="py-op">:</tt> </tt>
-<a name="L25"></a><tt class="py-lineno"> 25</tt>  <tt class="py-line">            <tt class="py-keyword">return</tt> <tt class="py-name">json</tt><tt class="py-op">.</tt><tt class="py-name">json</tt><tt class="py-op">.</tt><tt class="py-name">dumps</tt><tt class="py-op">(</tt><tt class="py-name">data</tt><tt class="py-op">,</tt> <tt class="py-name">cls</tt><tt class="py-op">=</tt><tt class="py-name">json</tt><tt class="py-op">.</tt><tt class="py-name">DjangoJSONEncoder</tt><tt class="py-op">,</tt> </tt>
-<a name="L26"></a><tt class="py-lineno"> 26</tt>  <tt class="py-line">                                   <tt class="py-name">sort_keys</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">,</tt> <tt class="py-name">ensure_ascii</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt> </tt>
-<a name="L27"></a><tt class="py-lineno"> 27</tt>  <tt class="py-line">        <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
-<a name="L28"></a><tt class="py-lineno"> 28</tt>  <tt class="py-line">            <tt class="py-keyword">return</tt> <tt class="py-name">simplejson</tt><tt class="py-op">.</tt><tt class="py-name">dumps</tt><tt class="py-op">(</tt><tt class="py-name">data</tt><tt class="py-op">,</tt> <tt class="py-name">cls</tt><tt class="py-op">=</tt><tt class="py-name">json</tt><tt class="py-op">.</tt><tt class="py-name">DjangoJSONEncoder</tt><tt class="py-op">,</tt> </tt>
-<a name="L29"></a><tt class="py-lineno"> 29</tt>  <tt class="py-line">                                    <tt class="py-name">sort_keys</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">,</tt> <tt class="py-name">ensure_ascii</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt> </tt>
-</div></div><a name="L30"></a><tt class="py-lineno"> 30</tt>  <tt class="py-line"> </tt>
-<a name="L31"></a><tt class="py-lineno"> 31</tt>  <tt class="py-line"> </tt>
-<a name="StatesResource"></a><div id="StatesResource-def"><a name="L32"></a><tt class="py-lineno"> 32</tt> <a class="py-toggle" href="#" id="StatesResource-toggle" onclick="return toggle('StatesResource');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.StatesResource-class.html">StatesResource</a><tt class="py-op">(</tt><tt class="py-base-class">ModelResource</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
-</div><div id="StatesResource-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="StatesResource-expanded"><a name="L33"></a><tt class="py-lineno"> 33</tt>  <tt class="py-line">    <tt id="link-9" class="py-name" targets="Variable spatio_main.api.StatesResource.bbox=spatio_main.api.StatesResource-class.html#bbox,Variable spatio_main.models.State.bbox=spatio_main.models.State-class.html#bbox"><a title="spatio_main.api.StatesResource.bbox
+<a name="L24"></a><tt class="py-lineno"> 24</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">json</tt><tt class="py-op">.</tt><tt class="py-name">json</tt><tt class="py-op">.</tt><tt class="py-name">dumps</tt><tt class="py-op">(</tt><tt class="py-name">data</tt><tt class="py-op">,</tt> <tt class="py-name">cls</tt><tt class="py-op">=</tt><tt class="py-name">json</tt><tt class="py-op">.</tt><tt class="py-name">DjangoJSONEncoder</tt><tt class="py-op">,</tt> </tt>
+<a name="L25"></a><tt class="py-lineno"> 25</tt>  <tt class="py-line">                                   <tt class="py-name">sort_keys</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">,</tt> <tt class="py-name">ensure_ascii</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt> </tt>
+</div></div><a name="L26"></a><tt class="py-lineno"> 26</tt>  <tt class="py-line"> </tt>
+<a name="L27"></a><tt class="py-lineno"> 27</tt>  <tt class="py-line"> </tt>
+<a name="L28"></a><tt class="py-lineno"> 28</tt>  <tt class="py-line"> </tt>
+<a name="StatesResource"></a><div id="StatesResource-def"><a name="L29"></a><tt class="py-lineno"> 29</tt> <a class="py-toggle" href="#" id="StatesResource-toggle" onclick="return toggle('StatesResource');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.StatesResource-class.html">StatesResource</a><tt class="py-op">(</tt><tt class="py-base-class">ModelResource</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="StatesResource-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="StatesResource-expanded"><a name="L30"></a><tt class="py-lineno"> 30</tt>  <tt class="py-line">    <tt id="link-9" class="py-name" targets="Variable spatio_main.api.StatesResource.bbox=spatio_main.api.StatesResource-class.html#bbox,Variable spatio_main.models.State.bbox=spatio_main.models.State-class.html#bbox"><a title="spatio_main.api.StatesResource.bbox
 spatio_main.models.State.bbox" class="py-name" href="#" onclick="return doclink('link-9', 'bbox', 'link-9');">bbox</a></tt> <tt class="py-op">=</tt> <tt class="py-name">GeometryApiField</tt><tt class="py-op">(</tt><tt class="py-string">'bbox'</tt><tt class="py-op">,</tt> <tt class="py-name">readonly</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">,</tt> <tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt> </tt>
-<a name="L34"></a><tt class="py-lineno"> 34</tt>  <tt class="py-line"> </tt>
-<a name="StatesResource.Meta"></a><div id="StatesResource.Meta-def"><a name="L35"></a><tt class="py-lineno"> 35</tt> <a class="py-toggle" href="#" id="StatesResource.Meta-toggle" onclick="return toggle('StatesResource.Meta');">-</a><tt class="py-line">    <tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.StatesResource.Meta-class.html">Meta</a><tt class="py-op">:</tt> </tt>
-</div><div id="StatesResource.Meta-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="StatesResource.Meta-expanded"><a name="L36"></a><tt class="py-lineno"> 36</tt>  <tt class="py-line">        <tt id="link-10" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.Meta.resource_name=spatio_main.api.CommunitiesResource.Meta-class.html#resource_name,Variable spatio_main.api.DistrictsResource.Meta.resource_name=spatio_main.api.DistrictsResource.Meta-class.html#resource_name,Variable spatio_main.api.HistoricDataResource.Meta.resource_name=spatio_main.api.HistoricDataResource.Meta-class.html#resource_name,Variable spatio_main.api.PoliceReportResource.Meta.resource_name=spatio_main.api.PoliceReportResource.Meta-class.html#resource_name,Variable spatio_main.api.StatesResource.Meta.resource_name=spatio_main.api.StatesResource.Meta-class.html#resource_name"><a title="spatio_main.api.CommunitiesResource.Meta.resource_name
+<a name="L31"></a><tt class="py-lineno"> 31</tt>  <tt class="py-line"> </tt>
+<a name="StatesResource.Meta"></a><div id="StatesResource.Meta-def"><a name="L32"></a><tt class="py-lineno"> 32</tt> <a class="py-toggle" href="#" id="StatesResource.Meta-toggle" onclick="return toggle('StatesResource.Meta');">-</a><tt class="py-line">    <tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.StatesResource.Meta-class.html">Meta</a><tt class="py-op">:</tt> </tt>
+</div><div id="StatesResource.Meta-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="StatesResource.Meta-expanded"><a name="L33"></a><tt class="py-lineno"> 33</tt>  <tt class="py-line">        <tt id="link-10" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.Meta.resource_name=spatio_main.api.CommunitiesResource.Meta-class.html#resource_name,Variable spatio_main.api.DistrictsResource.Meta.resource_name=spatio_main.api.DistrictsResource.Meta-class.html#resource_name,Variable spatio_main.api.HistoricDataResource.Meta.resource_name=spatio_main.api.HistoricDataResource.Meta-class.html#resource_name,Variable spatio_main.api.PoliceReportResource.Meta.resource_name=spatio_main.api.PoliceReportResource.Meta-class.html#resource_name,Variable spatio_main.api.StatesResource.Meta.resource_name=spatio_main.api.StatesResource.Meta-class.html#resource_name"><a title="spatio_main.api.CommunitiesResource.Meta.resource_name
 spatio_main.api.DistrictsResource.Meta.resource_name
 spatio_main.api.HistoricDataResource.Meta.resource_name
 spatio_main.api.PoliceReportResource.Meta.resource_name
 spatio_main.api.StatesResource.Meta.resource_name" class="py-name" href="#" onclick="return doclink('link-10', 'resource_name', 'link-10');">resource_name</a></tt> <tt class="py-op">=</tt> <tt class="py-string">'states'</tt> </tt>
-<a name="L37"></a><tt class="py-lineno"> 37</tt>  <tt class="py-line">        <tt id="link-11" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.Meta.queryset=spatio_main.api.CommunitiesResource.Meta-class.html#queryset,Variable spatio_main.api.DistrictsResource.Meta.queryset=spatio_main.api.DistrictsResource.Meta-class.html#queryset,Variable spatio_main.api.HistoricDataResource.Meta.queryset=spatio_main.api.HistoricDataResource.Meta-class.html#queryset,Variable spatio_main.api.PoliceReportResource.Meta.queryset=spatio_main.api.PoliceReportResource.Meta-class.html#queryset,Variable spatio_main.api.StatesResource.Meta.queryset=spatio_main.api.StatesResource.Meta-class.html#queryset"><a title="spatio_main.api.CommunitiesResource.Meta.queryset
+<a name="L34"></a><tt class="py-lineno"> 34</tt>  <tt class="py-line">        <tt id="link-11" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.Meta.queryset=spatio_main.api.CommunitiesResource.Meta-class.html#queryset,Variable spatio_main.api.DistrictsResource.Meta.queryset=spatio_main.api.DistrictsResource.Meta-class.html#queryset,Variable spatio_main.api.HistoricDataResource.Meta.queryset=spatio_main.api.HistoricDataResource.Meta-class.html#queryset,Variable spatio_main.api.PoliceReportResource.Meta.queryset=spatio_main.api.PoliceReportResource.Meta-class.html#queryset,Variable spatio_main.api.StatesResource.Meta.queryset=spatio_main.api.StatesResource.Meta-class.html#queryset"><a title="spatio_main.api.CommunitiesResource.Meta.queryset
 spatio_main.api.DistrictsResource.Meta.queryset
 spatio_main.api.HistoricDataResource.Meta.queryset
 spatio_main.api.PoliceReportResource.Meta.queryset
@@ -111,37 +113,37 @@ spatio_main.models.District.objects
 spatio_main.models.HistoricData.objects
 spatio_main.models.PoliceReport.objects
 spatio_main.models.State.objects" class="py-name" href="#" onclick="return doclink('link-13', 'objects', 'link-13');">objects</a></tt><tt class="py-op">.</tt><tt class="py-name">all</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-<a name="L38"></a><tt class="py-lineno"> 38</tt>  <tt class="py-line">        <tt id="link-14" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.Meta.filtering=spatio_main.api.CommunitiesResource.Meta-class.html#filtering,Variable spatio_main.api.DistrictsResource.Meta.filtering=spatio_main.api.DistrictsResource.Meta-class.html#filtering,Variable spatio_main.api.PoliceReportResource.Meta.filtering=spatio_main.api.PoliceReportResource.Meta-class.html#filtering,Variable spatio_main.api.StatesResource.Meta.filtering=spatio_main.api.StatesResource.Meta-class.html#filtering"><a title="spatio_main.api.CommunitiesResource.Meta.filtering
+<a name="L35"></a><tt class="py-lineno"> 35</tt>  <tt class="py-line">        <tt id="link-14" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.Meta.filtering=spatio_main.api.CommunitiesResource.Meta-class.html#filtering,Variable spatio_main.api.DistrictsResource.Meta.filtering=spatio_main.api.DistrictsResource.Meta-class.html#filtering,Variable spatio_main.api.PoliceReportResource.Meta.filtering=spatio_main.api.PoliceReportResource.Meta-class.html#filtering,Variable spatio_main.api.StatesResource.Meta.filtering=spatio_main.api.StatesResource.Meta-class.html#filtering"><a title="spatio_main.api.CommunitiesResource.Meta.filtering
 spatio_main.api.DistrictsResource.Meta.filtering
 spatio_main.api.PoliceReportResource.Meta.filtering
 spatio_main.api.StatesResource.Meta.filtering" class="py-name" href="#" onclick="return doclink('link-14', 'filtering', 'link-14');">filtering</a></tt> <tt class="py-op">=</tt> <tt class="py-op">{</tt> </tt>
-<a name="L39"></a><tt class="py-lineno"> 39</tt>  <tt class="py-line">            <tt class="py-string">'name'</tt> <tt class="py-op">:</tt> <tt class="py-op">(</tt><tt class="py-string">'exact'</tt><tt class="py-op">,</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> </tt>
-<a name="L40"></a><tt class="py-lineno"> 40</tt>  <tt class="py-line">            <tt class="py-string">'area'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL</tt> </tt>
-<a name="L41"></a><tt class="py-lineno"> 41</tt>  <tt class="py-line"> </tt>
-<a name="L42"></a><tt class="py-lineno"> 42</tt>  <tt class="py-line">        <tt class="py-op">}</tt> </tt>
-<a name="L43"></a><tt class="py-lineno"> 43</tt>  <tt class="py-line">        <tt id="link-15" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.Meta.serializer=spatio_main.api.CommunitiesResource.Meta-class.html#serializer,Variable spatio_main.api.DistrictsResource.Meta.serializer=spatio_main.api.DistrictsResource.Meta-class.html#serializer,Variable spatio_main.api.HistoricDataResource.Meta.serializer=spatio_main.api.HistoricDataResource.Meta-class.html#serializer,Variable spatio_main.api.PoliceReportResource.Meta.serializer=spatio_main.api.PoliceReportResource.Meta-class.html#serializer,Variable spatio_main.api.StatesResource.Meta.serializer=spatio_main.api.StatesResource.Meta-class.html#serializer"><a title="spatio_main.api.CommunitiesResource.Meta.serializer
+<a name="L36"></a><tt class="py-lineno"> 36</tt>  <tt class="py-line">            <tt class="py-string">'name'</tt> <tt class="py-op">:</tt> <tt class="py-op">(</tt><tt class="py-string">'exact'</tt><tt class="py-op">,</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> </tt>
+<a name="L37"></a><tt class="py-lineno"> 37</tt>  <tt class="py-line">            <tt class="py-string">'area'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL</tt> </tt>
+<a name="L38"></a><tt class="py-lineno"> 38</tt>  <tt class="py-line"> </tt>
+<a name="L39"></a><tt class="py-lineno"> 39</tt>  <tt class="py-line">        <tt class="py-op">}</tt> </tt>
+<a name="L40"></a><tt class="py-lineno"> 40</tt>  <tt class="py-line">        <tt id="link-15" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.Meta.serializer=spatio_main.api.CommunitiesResource.Meta-class.html#serializer,Variable spatio_main.api.DistrictsResource.Meta.serializer=spatio_main.api.DistrictsResource.Meta-class.html#serializer,Variable spatio_main.api.HistoricDataResource.Meta.serializer=spatio_main.api.HistoricDataResource.Meta-class.html#serializer,Variable spatio_main.api.PoliceReportResource.Meta.serializer=spatio_main.api.PoliceReportResource.Meta-class.html#serializer,Variable spatio_main.api.StatesResource.Meta.serializer=spatio_main.api.StatesResource.Meta-class.html#serializer"><a title="spatio_main.api.CommunitiesResource.Meta.serializer
 spatio_main.api.DistrictsResource.Meta.serializer
 spatio_main.api.HistoricDataResource.Meta.serializer
 spatio_main.api.PoliceReportResource.Meta.serializer
 spatio_main.api.StatesResource.Meta.serializer" class="py-name" href="#" onclick="return doclink('link-15', 'serializer', 'link-15');">serializer</a></tt> <tt class="py-op">=</tt> <tt id="link-16" class="py-name" targets="Class spatio_main.api.SerializerWithASCII=spatio_main.api.SerializerWithASCII-class.html"><a title="spatio_main.api.SerializerWithASCII" class="py-name" href="#" onclick="return doclink('link-16', 'SerializerWithASCII', 'link-16');">SerializerWithASCII</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-<a name="L44"></a><tt class="py-lineno"> 44</tt>  <tt class="py-line">        <tt id="link-17" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.cache
+<a name="L41"></a><tt class="py-lineno"> 41</tt>  <tt class="py-line">        <tt id="link-17" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.cache
 spatio_main.api.DistrictsResource.Meta.cache
 spatio_main.api.HistoricDataResource.Meta.cache
 spatio_main.api.PoliceReportResource.Meta.cache
 spatio_main.api.StatesResource.Meta.cache" class="py-name" href="#" onclick="return doclink('link-17', 'cache', 'link-8');">cache</a></tt> <tt class="py-op">=</tt> <tt class="py-name">SimpleCache</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-</div></div><a name="L45"></a><tt class="py-lineno"> 45</tt>  <tt class="py-line"> </tt>
-<a name="L46"></a><tt class="py-lineno"> 46</tt>  <tt class="py-line"> </tt>
-<a name="CommunitiesResource"></a><div id="CommunitiesResource-def"><a name="L47"></a><tt class="py-lineno"> 47</tt> <a class="py-toggle" href="#" id="CommunitiesResource-toggle" onclick="return toggle('CommunitiesResource');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.CommunitiesResource-class.html">CommunitiesResource</a><tt class="py-op">(</tt><tt class="py-base-class">ModelResource</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
-</div><div id="CommunitiesResource-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="CommunitiesResource-expanded"><a name="L48"></a><tt class="py-lineno"> 48</tt>  <tt class="py-line">    <tt id="link-18" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.state=spatio_main.api.CommunitiesResource-class.html#state,Variable spatio_main.models.Community.state=spatio_main.models.Community-class.html#state"><a title="spatio_main.api.CommunitiesResource.state
+</div></div><a name="L42"></a><tt class="py-lineno"> 42</tt>  <tt class="py-line"> </tt>
+<a name="L43"></a><tt class="py-lineno"> 43</tt>  <tt class="py-line"> </tt>
+<a name="CommunitiesResource"></a><div id="CommunitiesResource-def"><a name="L44"></a><tt class="py-lineno"> 44</tt> <a class="py-toggle" href="#" id="CommunitiesResource-toggle" onclick="return toggle('CommunitiesResource');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.CommunitiesResource-class.html">CommunitiesResource</a><tt class="py-op">(</tt><tt class="py-base-class">ModelResource</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="CommunitiesResource-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="CommunitiesResource-expanded"><a name="L45"></a><tt class="py-lineno"> 45</tt>  <tt class="py-line">    <tt id="link-18" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.state=spatio_main.api.CommunitiesResource-class.html#state,Variable spatio_main.models.Community.state=spatio_main.models.Community-class.html#state"><a title="spatio_main.api.CommunitiesResource.state
 spatio_main.models.Community.state" class="py-name" href="#" onclick="return doclink('link-18', 'state', 'link-18');">state</a></tt> <tt class="py-op">=</tt> <tt class="py-name">ForeignKey</tt><tt class="py-op">(</tt><tt id="link-19" class="py-name" targets="Class spatio_main.api.StatesResource=spatio_main.api.StatesResource-class.html"><a title="spatio_main.api.StatesResource" class="py-name" href="#" onclick="return doclink('link-19', 'StatesResource', 'link-19');">StatesResource</a></tt><tt class="py-op">,</tt> <tt class="py-string">'state'</tt><tt class="py-op">)</tt> </tt>
-<a name="L49"></a><tt class="py-lineno"> 49</tt>  <tt class="py-line"> </tt>
-<a name="CommunitiesResource.Meta"></a><div id="CommunitiesResource.Meta-def"><a name="L50"></a><tt class="py-lineno"> 50</tt> <a class="py-toggle" href="#" id="CommunitiesResource.Meta-toggle" onclick="return toggle('CommunitiesResource.Meta');">-</a><tt class="py-line">    <tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.CommunitiesResource.Meta-class.html">Meta</a><tt class="py-op">:</tt> </tt>
-</div><div id="CommunitiesResource.Meta-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="CommunitiesResource.Meta-expanded"><a name="L51"></a><tt class="py-lineno"> 51</tt>  <tt class="py-line">        <tt id="link-20" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.resource_name
+<a name="L46"></a><tt class="py-lineno"> 46</tt>  <tt class="py-line"> </tt>
+<a name="CommunitiesResource.Meta"></a><div id="CommunitiesResource.Meta-def"><a name="L47"></a><tt class="py-lineno"> 47</tt> <a class="py-toggle" href="#" id="CommunitiesResource.Meta-toggle" onclick="return toggle('CommunitiesResource.Meta');">-</a><tt class="py-line">    <tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.CommunitiesResource.Meta-class.html">Meta</a><tt class="py-op">:</tt> </tt>
+</div><div id="CommunitiesResource.Meta-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="CommunitiesResource.Meta-expanded"><a name="L48"></a><tt class="py-lineno"> 48</tt>  <tt class="py-line">        <tt id="link-20" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.resource_name
 spatio_main.api.DistrictsResource.Meta.resource_name
 spatio_main.api.HistoricDataResource.Meta.resource_name
 spatio_main.api.PoliceReportResource.Meta.resource_name
 spatio_main.api.StatesResource.Meta.resource_name" class="py-name" href="#" onclick="return doclink('link-20', 'resource_name', 'link-10');">resource_name</a></tt> <tt class="py-op">=</tt> <tt class="py-string">'communities'</tt> </tt>
-<a name="L52"></a><tt class="py-lineno"> 52</tt>  <tt class="py-line">        <tt id="link-21" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.queryset
+<a name="L49"></a><tt class="py-lineno"> 49</tt>  <tt class="py-line">        <tt id="link-21" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.queryset
 spatio_main.api.DistrictsResource.Meta.queryset
 spatio_main.api.HistoricDataResource.Meta.queryset
 spatio_main.api.PoliceReportResource.Meta.queryset
@@ -150,37 +152,37 @@ spatio_main.models.District.objects
 spatio_main.models.HistoricData.objects
 spatio_main.models.PoliceReport.objects
 spatio_main.models.State.objects" class="py-name" href="#" onclick="return doclink('link-23', 'objects', 'link-13');">objects</a></tt><tt class="py-op">.</tt><tt class="py-name">all</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-<a name="L53"></a><tt class="py-lineno"> 53</tt>  <tt class="py-line">        <tt id="link-24" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.filtering
+<a name="L50"></a><tt class="py-lineno"> 50</tt>  <tt class="py-line">        <tt id="link-24" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.filtering
 spatio_main.api.DistrictsResource.Meta.filtering
 spatio_main.api.PoliceReportResource.Meta.filtering
 spatio_main.api.StatesResource.Meta.filtering" class="py-name" href="#" onclick="return doclink('link-24', 'filtering', 'link-14');">filtering</a></tt> <tt class="py-op">=</tt> <tt class="py-op">{</tt> </tt>
-<a name="L54"></a><tt class="py-lineno"> 54</tt>  <tt class="py-line">            <tt class="py-string">'name'</tt> <tt class="py-op">:</tt> <tt class="py-op">(</tt><tt class="py-string">'exact'</tt><tt class="py-op">,</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> </tt>
-<a name="L55"></a><tt class="py-lineno"> 55</tt>  <tt class="py-line">            <tt class="py-string">'state'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL_WITH_RELATIONS</tt><tt class="py-op">,</tt> </tt>
-<a name="L56"></a><tt class="py-lineno"> 56</tt>  <tt class="py-line">            <tt class="py-string">'area'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL</tt> </tt>
-<a name="L57"></a><tt class="py-lineno"> 57</tt>  <tt class="py-line">        <tt class="py-op">}</tt> </tt>
-<a name="L58"></a><tt class="py-lineno"> 58</tt>  <tt class="py-line">        <tt id="link-25" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.serializer
+<a name="L51"></a><tt class="py-lineno"> 51</tt>  <tt class="py-line">            <tt class="py-string">'name'</tt> <tt class="py-op">:</tt> <tt class="py-op">(</tt><tt class="py-string">'exact'</tt><tt class="py-op">,</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> </tt>
+<a name="L52"></a><tt class="py-lineno"> 52</tt>  <tt class="py-line">            <tt class="py-string">'state'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL_WITH_RELATIONS</tt><tt class="py-op">,</tt> </tt>
+<a name="L53"></a><tt class="py-lineno"> 53</tt>  <tt class="py-line">            <tt class="py-string">'area'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL</tt> </tt>
+<a name="L54"></a><tt class="py-lineno"> 54</tt>  <tt class="py-line">        <tt class="py-op">}</tt> </tt>
+<a name="L55"></a><tt class="py-lineno"> 55</tt>  <tt class="py-line">        <tt id="link-25" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.serializer
 spatio_main.api.DistrictsResource.Meta.serializer
 spatio_main.api.HistoricDataResource.Meta.serializer
 spatio_main.api.PoliceReportResource.Meta.serializer
 spatio_main.api.StatesResource.Meta.serializer" class="py-name" href="#" onclick="return doclink('link-25', 'serializer', 'link-15');">serializer</a></tt> <tt class="py-op">=</tt> <tt id="link-26" class="py-name"><a title="spatio_main.api.SerializerWithASCII" class="py-name" href="#" onclick="return doclink('link-26', 'SerializerWithASCII', 'link-16');">SerializerWithASCII</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-<a name="L59"></a><tt class="py-lineno"> 59</tt>  <tt class="py-line">        <tt id="link-27" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.cache
+<a name="L56"></a><tt class="py-lineno"> 56</tt>  <tt class="py-line">        <tt id="link-27" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.cache
 spatio_main.api.DistrictsResource.Meta.cache
 spatio_main.api.HistoricDataResource.Meta.cache
 spatio_main.api.PoliceReportResource.Meta.cache
 spatio_main.api.StatesResource.Meta.cache" class="py-name" href="#" onclick="return doclink('link-27', 'cache', 'link-8');">cache</a></tt> <tt class="py-op">=</tt> <tt class="py-name">SimpleCache</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-</div></div><a name="L60"></a><tt class="py-lineno"> 60</tt>  <tt class="py-line"> </tt>
-<a name="L61"></a><tt class="py-lineno"> 61</tt>  <tt class="py-line"> </tt>
-<a name="DistrictsResource"></a><div id="DistrictsResource-def"><a name="L62"></a><tt class="py-lineno"> 62</tt> <a class="py-toggle" href="#" id="DistrictsResource-toggle" onclick="return toggle('DistrictsResource');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.DistrictsResource-class.html">DistrictsResource</a><tt class="py-op">(</tt><tt class="py-base-class">ModelResource</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
-</div><div id="DistrictsResource-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="DistrictsResource-expanded"><a name="L63"></a><tt class="py-lineno"> 63</tt>  <tt class="py-line">    <tt id="link-28" class="py-name" targets="Variable spatio_main.api.DistrictsResource.community=spatio_main.api.DistrictsResource-class.html#community,Variable spatio_main.models.District.community=spatio_main.models.District-class.html#community"><a title="spatio_main.api.DistrictsResource.community
+</div></div><a name="L57"></a><tt class="py-lineno"> 57</tt>  <tt class="py-line"> </tt>
+<a name="L58"></a><tt class="py-lineno"> 58</tt>  <tt class="py-line"> </tt>
+<a name="DistrictsResource"></a><div id="DistrictsResource-def"><a name="L59"></a><tt class="py-lineno"> 59</tt> <a class="py-toggle" href="#" id="DistrictsResource-toggle" onclick="return toggle('DistrictsResource');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.DistrictsResource-class.html">DistrictsResource</a><tt class="py-op">(</tt><tt class="py-base-class">ModelResource</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="DistrictsResource-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="DistrictsResource-expanded"><a name="L60"></a><tt class="py-lineno"> 60</tt>  <tt class="py-line">    <tt id="link-28" class="py-name" targets="Variable spatio_main.api.DistrictsResource.community=spatio_main.api.DistrictsResource-class.html#community,Variable spatio_main.models.District.community=spatio_main.models.District-class.html#community"><a title="spatio_main.api.DistrictsResource.community
 spatio_main.models.District.community" class="py-name" href="#" onclick="return doclink('link-28', 'community', 'link-28');">community</a></tt> <tt class="py-op">=</tt> <tt class="py-name">ForeignKey</tt><tt class="py-op">(</tt><tt id="link-29" class="py-name" targets="Class spatio_main.api.CommunitiesResource=spatio_main.api.CommunitiesResource-class.html"><a title="spatio_main.api.CommunitiesResource" class="py-name" href="#" onclick="return doclink('link-29', 'CommunitiesResource', 'link-29');">CommunitiesResource</a></tt><tt class="py-op">,</tt> <tt class="py-string">'community'</tt><tt class="py-op">)</tt> </tt>
-<a name="L64"></a><tt class="py-lineno"> 64</tt>  <tt class="py-line"> </tt>
-<a name="DistrictsResource.Meta"></a><div id="DistrictsResource.Meta-def"><a name="L65"></a><tt class="py-lineno"> 65</tt> <a class="py-toggle" href="#" id="DistrictsResource.Meta-toggle" onclick="return toggle('DistrictsResource.Meta');">-</a><tt class="py-line">    <tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.DistrictsResource.Meta-class.html">Meta</a><tt class="py-op">:</tt> </tt>
-</div><div id="DistrictsResource.Meta-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="DistrictsResource.Meta-expanded"><a name="L66"></a><tt class="py-lineno"> 66</tt>  <tt class="py-line">        <tt id="link-30" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.resource_name
+<a name="L61"></a><tt class="py-lineno"> 61</tt>  <tt class="py-line"> </tt>
+<a name="DistrictsResource.Meta"></a><div id="DistrictsResource.Meta-def"><a name="L62"></a><tt class="py-lineno"> 62</tt> <a class="py-toggle" href="#" id="DistrictsResource.Meta-toggle" onclick="return toggle('DistrictsResource.Meta');">-</a><tt class="py-line">    <tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.DistrictsResource.Meta-class.html">Meta</a><tt class="py-op">:</tt> </tt>
+</div><div id="DistrictsResource.Meta-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="DistrictsResource.Meta-expanded"><a name="L63"></a><tt class="py-lineno"> 63</tt>  <tt class="py-line">        <tt id="link-30" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.resource_name
 spatio_main.api.DistrictsResource.Meta.resource_name
 spatio_main.api.HistoricDataResource.Meta.resource_name
 spatio_main.api.PoliceReportResource.Meta.resource_name
 spatio_main.api.StatesResource.Meta.resource_name" class="py-name" href="#" onclick="return doclink('link-30', 'resource_name', 'link-10');">resource_name</a></tt> <tt class="py-op">=</tt> <tt class="py-string">'districts'</tt> </tt>
-<a name="L67"></a><tt class="py-lineno"> 67</tt>  <tt class="py-line">        <tt id="link-31" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.queryset
+<a name="L64"></a><tt class="py-lineno"> 64</tt>  <tt class="py-line">        <tt id="link-31" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.queryset
 spatio_main.api.DistrictsResource.Meta.queryset
 spatio_main.api.HistoricDataResource.Meta.queryset
 spatio_main.api.PoliceReportResource.Meta.queryset
@@ -189,33 +191,33 @@ spatio_main.models.District.objects
 spatio_main.models.HistoricData.objects
 spatio_main.models.PoliceReport.objects
 spatio_main.models.State.objects" class="py-name" href="#" onclick="return doclink('link-33', 'objects', 'link-13');">objects</a></tt><tt class="py-op">.</tt><tt class="py-name">all</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-<a name="L68"></a><tt class="py-lineno"> 68</tt>  <tt class="py-line">        <tt id="link-34" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.filtering
+<a name="L65"></a><tt class="py-lineno"> 65</tt>  <tt class="py-line">        <tt id="link-34" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.filtering
 spatio_main.api.DistrictsResource.Meta.filtering
 spatio_main.api.PoliceReportResource.Meta.filtering
 spatio_main.api.StatesResource.Meta.filtering" class="py-name" href="#" onclick="return doclink('link-34', 'filtering', 'link-14');">filtering</a></tt> <tt class="py-op">=</tt> <tt class="py-op">{</tt> </tt>
-<a name="L69"></a><tt class="py-lineno"> 69</tt>  <tt class="py-line">            <tt class="py-string">'name'</tt> <tt class="py-op">:</tt> <tt class="py-op">(</tt><tt class="py-string">'exact'</tt><tt class="py-op">,</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> </tt>
-<a name="L70"></a><tt class="py-lineno"> 70</tt>  <tt class="py-line">            <tt class="py-string">'community'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL_WITH_RELATIONS</tt><tt class="py-op">,</tt> </tt>
-<a name="L71"></a><tt class="py-lineno"> 71</tt>  <tt class="py-line">            <tt class="py-string">'area'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL</tt> </tt>
-<a name="L72"></a><tt class="py-lineno"> 72</tt>  <tt class="py-line">        <tt class="py-op">}</tt> </tt>
-<a name="L73"></a><tt class="py-lineno"> 73</tt>  <tt class="py-line">        <tt id="link-35" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.serializer
+<a name="L66"></a><tt class="py-lineno"> 66</tt>  <tt class="py-line">            <tt class="py-string">'name'</tt> <tt class="py-op">:</tt> <tt class="py-op">(</tt><tt class="py-string">'exact'</tt><tt class="py-op">,</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> </tt>
+<a name="L67"></a><tt class="py-lineno"> 67</tt>  <tt class="py-line">            <tt class="py-string">'community'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL_WITH_RELATIONS</tt><tt class="py-op">,</tt> </tt>
+<a name="L68"></a><tt class="py-lineno"> 68</tt>  <tt class="py-line">            <tt class="py-string">'area'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL</tt> </tt>
+<a name="L69"></a><tt class="py-lineno"> 69</tt>  <tt class="py-line">        <tt class="py-op">}</tt> </tt>
+<a name="L70"></a><tt class="py-lineno"> 70</tt>  <tt class="py-line">        <tt id="link-35" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.serializer
 spatio_main.api.DistrictsResource.Meta.serializer
 spatio_main.api.HistoricDataResource.Meta.serializer
 spatio_main.api.PoliceReportResource.Meta.serializer
 spatio_main.api.StatesResource.Meta.serializer" class="py-name" href="#" onclick="return doclink('link-35', 'serializer', 'link-15');">serializer</a></tt> <tt class="py-op">=</tt> <tt id="link-36" class="py-name"><a title="spatio_main.api.SerializerWithASCII" class="py-name" href="#" onclick="return doclink('link-36', 'SerializerWithASCII', 'link-16');">SerializerWithASCII</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-<a name="L74"></a><tt class="py-lineno"> 74</tt>  <tt class="py-line">        <tt id="link-37" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.cache
+<a name="L71"></a><tt class="py-lineno"> 71</tt>  <tt class="py-line">        <tt id="link-37" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.cache
 spatio_main.api.DistrictsResource.Meta.cache
 spatio_main.api.HistoricDataResource.Meta.cache
 spatio_main.api.PoliceReportResource.Meta.cache
 spatio_main.api.StatesResource.Meta.cache" class="py-name" href="#" onclick="return doclink('link-37', 'cache', 'link-8');">cache</a></tt> <tt class="py-op">=</tt> <tt class="py-name">SimpleCache</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-</div></div><a name="L75"></a><tt class="py-lineno"> 75</tt>  <tt class="py-line"> </tt>
-<a name="PoliceReportResource"></a><div id="PoliceReportResource-def"><a name="L76"></a><tt class="py-lineno"> 76</tt> <a class="py-toggle" href="#" id="PoliceReportResource-toggle" onclick="return toggle('PoliceReportResource');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.PoliceReportResource-class.html">PoliceReportResource</a><tt class="py-op">(</tt><tt class="py-base-class">ModelResource</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
-</div><div id="PoliceReportResource-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="PoliceReportResource-expanded"><a name="PoliceReportResource.Meta"></a><div id="PoliceReportResource.Meta-def"><a name="L77"></a><tt class="py-lineno"> 77</tt> <a class="py-toggle" href="#" id="PoliceReportResource.Meta-toggle" onclick="return toggle('PoliceReportResource.Meta');">-</a><tt class="py-line">    <tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.PoliceReportResource.Meta-class.html">Meta</a><tt class="py-op">:</tt> </tt>
-</div><div id="PoliceReportResource.Meta-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="PoliceReportResource.Meta-expanded"><a name="L78"></a><tt class="py-lineno"> 78</tt>  <tt class="py-line">        <tt id="link-38" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.resource_name
+</div></div><a name="L72"></a><tt class="py-lineno"> 72</tt>  <tt class="py-line"> </tt>
+<a name="PoliceReportResource"></a><div id="PoliceReportResource-def"><a name="L73"></a><tt class="py-lineno"> 73</tt> <a class="py-toggle" href="#" id="PoliceReportResource-toggle" onclick="return toggle('PoliceReportResource');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.PoliceReportResource-class.html">PoliceReportResource</a><tt class="py-op">(</tt><tt class="py-base-class">ModelResource</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="PoliceReportResource-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="PoliceReportResource-expanded"><a name="PoliceReportResource.Meta"></a><div id="PoliceReportResource.Meta-def"><a name="L74"></a><tt class="py-lineno"> 74</tt> <a class="py-toggle" href="#" id="PoliceReportResource.Meta-toggle" onclick="return toggle('PoliceReportResource.Meta');">-</a><tt class="py-line">    <tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.PoliceReportResource.Meta-class.html">Meta</a><tt class="py-op">:</tt> </tt>
+</div><div id="PoliceReportResource.Meta-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="PoliceReportResource.Meta-expanded"><a name="L75"></a><tt class="py-lineno"> 75</tt>  <tt class="py-line">        <tt id="link-38" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.resource_name
 spatio_main.api.DistrictsResource.Meta.resource_name
 spatio_main.api.HistoricDataResource.Meta.resource_name
 spatio_main.api.PoliceReportResource.Meta.resource_name
 spatio_main.api.StatesResource.Meta.resource_name" class="py-name" href="#" onclick="return doclink('link-38', 'resource_name', 'link-10');">resource_name</a></tt> <tt class="py-op">=</tt> <tt class="py-string">'reports'</tt> </tt>
-<a name="L79"></a><tt class="py-lineno"> 79</tt>  <tt class="py-line">        <tt id="link-39" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.queryset
+<a name="L76"></a><tt class="py-lineno"> 76</tt>  <tt class="py-line">        <tt id="link-39" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.queryset
 spatio_main.api.DistrictsResource.Meta.queryset
 spatio_main.api.HistoricDataResource.Meta.queryset
 spatio_main.api.PoliceReportResource.Meta.queryset
@@ -224,36 +226,36 @@ spatio_main.models.District.objects
 spatio_main.models.HistoricData.objects
 spatio_main.models.PoliceReport.objects
 spatio_main.models.State.objects" class="py-name" href="#" onclick="return doclink('link-41', 'objects', 'link-13');">objects</a></tt><tt class="py-op">.</tt><tt class="py-name">all</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-<a name="L80"></a><tt class="py-lineno"> 80</tt>  <tt class="py-line">        <tt id="link-42" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.filtering
+<a name="L77"></a><tt class="py-lineno"> 77</tt>  <tt class="py-line">        <tt id="link-42" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.filtering
 spatio_main.api.DistrictsResource.Meta.filtering
 spatio_main.api.PoliceReportResource.Meta.filtering
 spatio_main.api.StatesResource.Meta.filtering" class="py-name" href="#" onclick="return doclink('link-42', 'filtering', 'link-14');">filtering</a></tt> <tt class="py-op">=</tt> <tt class="py-op">{</tt> </tt>
-<a name="L81"></a><tt class="py-lineno"> 81</tt>  <tt class="py-line">            <tt class="py-string">'location'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL</tt> </tt>
-<a name="L82"></a><tt class="py-lineno"> 82</tt>  <tt class="py-line">        <tt class="py-op">}</tt> </tt>
-<a name="L83"></a><tt class="py-lineno"> 83</tt>  <tt class="py-line">        <tt id="link-43" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.serializer
+<a name="L78"></a><tt class="py-lineno"> 78</tt>  <tt class="py-line">            <tt class="py-string">'location'</tt> <tt class="py-op">:</tt> <tt class="py-name">ALL</tt> </tt>
+<a name="L79"></a><tt class="py-lineno"> 79</tt>  <tt class="py-line">        <tt class="py-op">}</tt> </tt>
+<a name="L80"></a><tt class="py-lineno"> 80</tt>  <tt class="py-line">        <tt id="link-43" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.serializer
 spatio_main.api.DistrictsResource.Meta.serializer
 spatio_main.api.HistoricDataResource.Meta.serializer
 spatio_main.api.PoliceReportResource.Meta.serializer
 spatio_main.api.StatesResource.Meta.serializer" class="py-name" href="#" onclick="return doclink('link-43', 'serializer', 'link-15');">serializer</a></tt> <tt class="py-op">=</tt> <tt id="link-44" class="py-name"><a title="spatio_main.api.SerializerWithASCII" class="py-name" href="#" onclick="return doclink('link-44', 'SerializerWithASCII', 'link-16');">SerializerWithASCII</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-<a name="L84"></a><tt class="py-lineno"> 84</tt>  <tt class="py-line">        <tt id="link-45" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.cache
+<a name="L81"></a><tt class="py-lineno"> 81</tt>  <tt class="py-line">        <tt id="link-45" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.cache
 spatio_main.api.DistrictsResource.Meta.cache
 spatio_main.api.HistoricDataResource.Meta.cache
 spatio_main.api.PoliceReportResource.Meta.cache
 spatio_main.api.StatesResource.Meta.cache" class="py-name" href="#" onclick="return doclink('link-45', 'cache', 'link-8');">cache</a></tt> <tt class="py-op">=</tt> <tt class="py-name">SimpleCache</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-</div></div><a name="L85"></a><tt class="py-lineno"> 85</tt>  <tt class="py-line"> </tt>
-<a name="HistoricDataResource"></a><div id="HistoricDataResource-def"><a name="L86"></a><tt class="py-lineno"> 86</tt> <a class="py-toggle" href="#" id="HistoricDataResource-toggle" onclick="return toggle('HistoricDataResource');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.HistoricDataResource-class.html">HistoricDataResource</a><tt class="py-op">(</tt><tt class="py-base-class">ModelResource</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
-</div><div id="HistoricDataResource-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="HistoricDataResource-expanded"><a name="L87"></a><tt class="py-lineno"> 87</tt>  <tt class="py-line">    <tt id="link-46" class="py-name" targets="Variable spatio_main.api.HistoricDataResource.count=spatio_main.api.HistoricDataResource-class.html#count"><a title="spatio_main.api.HistoricDataResource.count" class="py-name" href="#" onclick="return doclink('link-46', 'count', 'link-46');">count</a></tt> <tt class="py-op">=</tt> <tt class="py-name">IntegerField</tt><tt class="py-op">(</tt><tt class="py-string">'crime_count'</tt><tt class="py-op">)</tt> </tt>
-<a name="L88"></a><tt class="py-lineno"> 88</tt>  <tt class="py-line">    <tt id="link-47" class="py-name" targets="Variable spatio_main.api.HistoricDataResource.name=spatio_main.api.HistoricDataResource-class.html#name,Variable spatio_main.models.Community.name=spatio_main.models.Community-class.html#name,Variable spatio_main.models.District.name=spatio_main.models.District-class.html#name,Variable spatio_main.models.State.name=spatio_main.models.State-class.html#name"><a title="spatio_main.api.HistoricDataResource.name
+</div></div><a name="L82"></a><tt class="py-lineno"> 82</tt>  <tt class="py-line"> </tt>
+<a name="HistoricDataResource"></a><div id="HistoricDataResource-def"><a name="L83"></a><tt class="py-lineno"> 83</tt> <a class="py-toggle" href="#" id="HistoricDataResource-toggle" onclick="return toggle('HistoricDataResource');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.HistoricDataResource-class.html">HistoricDataResource</a><tt class="py-op">(</tt><tt class="py-base-class">ModelResource</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="HistoricDataResource-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="HistoricDataResource-expanded"><a name="L84"></a><tt class="py-lineno"> 84</tt>  <tt class="py-line">    <tt id="link-46" class="py-name" targets="Variable spatio_main.api.HistoricDataResource.count=spatio_main.api.HistoricDataResource-class.html#count"><a title="spatio_main.api.HistoricDataResource.count" class="py-name" href="#" onclick="return doclink('link-46', 'count', 'link-46');">count</a></tt> <tt class="py-op">=</tt> <tt class="py-name">IntegerField</tt><tt class="py-op">(</tt><tt class="py-string">'crime_count'</tt><tt class="py-op">)</tt> </tt>
+<a name="L85"></a><tt class="py-lineno"> 85</tt>  <tt class="py-line">    <tt id="link-47" class="py-name" targets="Variable spatio_main.api.HistoricDataResource.name=spatio_main.api.HistoricDataResource-class.html#name,Variable spatio_main.models.Community.name=spatio_main.models.Community-class.html#name,Variable spatio_main.models.District.name=spatio_main.models.District-class.html#name,Variable spatio_main.models.State.name=spatio_main.models.State-class.html#name"><a title="spatio_main.api.HistoricDataResource.name
 spatio_main.models.Community.name
 spatio_main.models.District.name
 spatio_main.models.State.name" class="py-name" href="#" onclick="return doclink('link-47', 'name', 'link-47');">name</a></tt> <tt class="py-op">=</tt> <tt class="py-name">CharField</tt><tt class="py-op">(</tt><tt class="py-string">'title'</tt><tt class="py-op">)</tt> </tt>
-<a name="HistoricDataResource.Meta"></a><div id="HistoricDataResource.Meta-def"><a name="L89"></a><tt class="py-lineno"> 89</tt> <a class="py-toggle" href="#" id="HistoricDataResource.Meta-toggle" onclick="return toggle('HistoricDataResource.Meta');">-</a><tt class="py-line">    <tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.HistoricDataResource.Meta-class.html">Meta</a><tt class="py-op">:</tt> </tt>
-</div><div id="HistoricDataResource.Meta-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="HistoricDataResource.Meta-expanded"><a name="L90"></a><tt class="py-lineno"> 90</tt>  <tt class="py-line">        <tt id="link-48" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.resource_name
+<a name="HistoricDataResource.Meta"></a><div id="HistoricDataResource.Meta-def"><a name="L86"></a><tt class="py-lineno"> 86</tt> <a class="py-toggle" href="#" id="HistoricDataResource.Meta-toggle" onclick="return toggle('HistoricDataResource.Meta');">-</a><tt class="py-line">    <tt class="py-keyword">class</tt> <a class="py-def-name" href="spatio_main.api.HistoricDataResource.Meta-class.html">Meta</a><tt class="py-op">:</tt> </tt>
+</div><div id="HistoricDataResource.Meta-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="HistoricDataResource.Meta-expanded"><a name="L87"></a><tt class="py-lineno"> 87</tt>  <tt class="py-line">        <tt id="link-48" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.resource_name
 spatio_main.api.DistrictsResource.Meta.resource_name
 spatio_main.api.HistoricDataResource.Meta.resource_name
 spatio_main.api.PoliceReportResource.Meta.resource_name
 spatio_main.api.StatesResource.Meta.resource_name" class="py-name" href="#" onclick="return doclink('link-48', 'resource_name', 'link-10');">resource_name</a></tt> <tt class="py-op">=</tt> <tt class="py-string">"history"</tt> </tt>
-<a name="L91"></a><tt class="py-lineno"> 91</tt>  <tt class="py-line">        <tt id="link-49" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.queryset
+<a name="L88"></a><tt class="py-lineno"> 88</tt>  <tt class="py-line">        <tt id="link-49" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.queryset
 spatio_main.api.DistrictsResource.Meta.queryset
 spatio_main.api.HistoricDataResource.Meta.queryset
 spatio_main.api.PoliceReportResource.Meta.queryset
@@ -262,35 +264,35 @@ spatio_main.models.District.objects
 spatio_main.models.HistoricData.objects
 spatio_main.models.PoliceReport.objects
 spatio_main.models.State.objects" class="py-name" href="#" onclick="return doclink('link-51', 'objects', 'link-13');">objects</a></tt><tt class="py-op">.</tt><tt class="py-name">all</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-<a name="L92"></a><tt class="py-lineno"> 92</tt>  <tt class="py-line">        <tt id="link-52" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.serializer
+<a name="L89"></a><tt class="py-lineno"> 89</tt>  <tt class="py-line">        <tt id="link-52" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.serializer
 spatio_main.api.DistrictsResource.Meta.serializer
 spatio_main.api.HistoricDataResource.Meta.serializer
 spatio_main.api.PoliceReportResource.Meta.serializer
 spatio_main.api.StatesResource.Meta.serializer" class="py-name" href="#" onclick="return doclink('link-52', 'serializer', 'link-15');">serializer</a></tt> <tt class="py-op">=</tt> <tt id="link-53" class="py-name"><a title="spatio_main.api.SerializerWithASCII" class="py-name" href="#" onclick="return doclink('link-53', 'SerializerWithASCII', 'link-16');">SerializerWithASCII</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-<a name="L93"></a><tt class="py-lineno"> 93</tt>  <tt class="py-line">        <tt id="link-54" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.cache
+<a name="L90"></a><tt class="py-lineno"> 90</tt>  <tt class="py-line">        <tt id="link-54" class="py-name"><a title="spatio_main.api.CommunitiesResource.Meta.cache
 spatio_main.api.DistrictsResource.Meta.cache
 spatio_main.api.HistoricDataResource.Meta.cache
 spatio_main.api.PoliceReportResource.Meta.cache
 spatio_main.api.StatesResource.Meta.cache" class="py-name" href="#" onclick="return doclink('link-54', 'cache', 'link-8');">cache</a></tt> <tt class="py-op">=</tt> <tt class="py-name">SimpleCache</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
-</div></div><a name="L94"></a><tt class="py-lineno"> 94</tt>  <tt class="py-line"> </tt>
-<a name="L95"></a><tt class="py-lineno"> 95</tt>  <tt class="py-line"> </tt>
-<a name="L96"></a><tt class="py-lineno"> 96</tt>  <tt class="py-line"><tt id="link-55" class="py-name"><a title="spatio_main.api
+</div></div><a name="L91"></a><tt class="py-lineno"> 91</tt>  <tt class="py-line"> </tt>
+<a name="L92"></a><tt class="py-lineno"> 92</tt>  <tt class="py-line"> </tt>
+<a name="L93"></a><tt class="py-lineno"> 93</tt>  <tt class="py-line"><tt id="link-55" class="py-name"><a title="spatio_main.api
 spatio_main.api.api" class="py-name" href="#" onclick="return doclink('link-55', 'api', 'link-0');">api</a></tt> <tt class="py-op">=</tt> <tt class="py-name">Api</tt><tt class="py-op">(</tt><tt id="link-56" class="py-name" targets="Variable spatio_main.api.CommunitiesResource.Meta.api_name=spatio_main.api.CommunitiesResource.Meta-class.html#api_name,Variable spatio_main.api.DistrictsResource.Meta.api_name=spatio_main.api.DistrictsResource.Meta-class.html#api_name,Variable spatio_main.api.HistoricDataResource.Meta.api_name=spatio_main.api.HistoricDataResource.Meta-class.html#api_name,Variable spatio_main.api.PoliceReportResource.Meta.api_name=spatio_main.api.PoliceReportResource.Meta-class.html#api_name,Variable spatio_main.api.StatesResource.Meta.api_name=spatio_main.api.StatesResource.Meta-class.html#api_name"><a title="spatio_main.api.CommunitiesResource.Meta.api_name
 spatio_main.api.DistrictsResource.Meta.api_name
 spatio_main.api.HistoricDataResource.Meta.api_name
 spatio_main.api.PoliceReportResource.Meta.api_name
 spatio_main.api.StatesResource.Meta.api_name" class="py-name" href="#" onclick="return doclink('link-56', 'api_name', 'link-56');">api_name</a></tt><tt class="py-op">=</tt><tt class="py-string">'v1'</tt><tt class="py-op">)</tt> </tt>
-<a name="L97"></a><tt class="py-lineno"> 97</tt>  <tt class="py-line"><tt id="link-57" class="py-name"><a title="spatio_main.api
+<a name="L94"></a><tt class="py-lineno"> 94</tt>  <tt class="py-line"><tt id="link-57" class="py-name"><a title="spatio_main.api
 spatio_main.api.api" class="py-name" href="#" onclick="return doclink('link-57', 'api', 'link-0');">api</a></tt><tt class="py-op">.</tt><tt class="py-name">register</tt><tt class="py-op">(</tt><tt id="link-58" class="py-name" targets="Class spatio_main.api.DistrictsResource=spatio_main.api.DistrictsResource-class.html"><a title="spatio_main.api.DistrictsResource" class="py-name" href="#" onclick="return doclink('link-58', 'DistrictsResource', 'link-58');">DistrictsResource</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
-<a name="L98"></a><tt class="py-lineno"> 98</tt>  <tt class="py-line"><tt id="link-59" class="py-name"><a title="spatio_main.api
+<a name="L95"></a><tt class="py-lineno"> 95</tt>  <tt class="py-line"><tt id="link-59" class="py-name"><a title="spatio_main.api
 spatio_main.api.api" class="py-name" href="#" onclick="return doclink('link-59', 'api', 'link-0');">api</a></tt><tt class="py-op">.</tt><tt class="py-name">register</tt><tt class="py-op">(</tt><tt id="link-60" class="py-name"><a title="spatio_main.api.CommunitiesResource" class="py-name" href="#" onclick="return doclink('link-60', 'CommunitiesResource', 'link-29');">CommunitiesResource</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
-<a name="L99"></a><tt class="py-lineno"> 99</tt>  <tt class="py-line"><tt id="link-61" class="py-name"><a title="spatio_main.api
+<a name="L96"></a><tt class="py-lineno"> 96</tt>  <tt class="py-line"><tt id="link-61" class="py-name"><a title="spatio_main.api
 spatio_main.api.api" class="py-name" href="#" onclick="return doclink('link-61', 'api', 'link-0');">api</a></tt><tt class="py-op">.</tt><tt class="py-name">register</tt><tt class="py-op">(</tt><tt id="link-62" class="py-name"><a title="spatio_main.api.StatesResource" class="py-name" href="#" onclick="return doclink('link-62', 'StatesResource', 'link-19');">StatesResource</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
-<a name="L100"></a><tt class="py-lineno">100</tt>  <tt class="py-line"><tt id="link-63" class="py-name"><a title="spatio_main.api
+<a name="L97"></a><tt class="py-lineno"> 97</tt>  <tt class="py-line"><tt id="link-63" class="py-name"><a title="spatio_main.api
 spatio_main.api.api" class="py-name" href="#" onclick="return doclink('link-63', 'api', 'link-0');">api</a></tt><tt class="py-op">.</tt><tt class="py-name">register</tt><tt class="py-op">(</tt><tt id="link-64" class="py-name" targets="Class spatio_main.api.PoliceReportResource=spatio_main.api.PoliceReportResource-class.html"><a title="spatio_main.api.PoliceReportResource" class="py-name" href="#" onclick="return doclink('link-64', 'PoliceReportResource', 'link-64');">PoliceReportResource</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
-<a name="L101"></a><tt class="py-lineno">101</tt>  <tt class="py-line"><tt id="link-65" class="py-name"><a title="spatio_main.api
+<a name="L98"></a><tt class="py-lineno"> 98</tt>  <tt class="py-line"><tt id="link-65" class="py-name"><a title="spatio_main.api
 spatio_main.api.api" class="py-name" href="#" onclick="return doclink('link-65', 'api', 'link-0');">api</a></tt><tt class="py-op">.</tt><tt class="py-name">register</tt><tt class="py-op">(</tt><tt id="link-66" class="py-name" targets="Class spatio_main.api.HistoricDataResource=spatio_main.api.HistoricDataResource-class.html"><a title="spatio_main.api.HistoricDataResource" class="py-name" href="#" onclick="return doclink('link-66', 'HistoricDataResource', 'link-66');">HistoricDataResource</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
-<a name="L102"></a><tt class="py-lineno">102</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<a name="L99"></a><tt class="py-lineno"> 99</tt>  <tt class="py-line"> </tt><script type="text/javascript">
 <!--
 expandto(location.href);
 // -->
@@ -317,13 +319,18 @@ expandto(location.href);
       <th>&nbsp;&nbsp;&nbsp;<a
         href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
-      <th class="navbar" width="100%"></th>
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Spatio-Frontend</th>
+          </tr></table></th>
   </tr>
 </table>
 <table border="0" cellpadding="0" cellspacing="0" width="100%%">
   <tr>
     <td align="left" class="footer">
-    Generated by Epydoc 3.0.1 on Sat Sep 14 11:50:50 2013
+    Generated by Epydoc 3.0.1 on Tue Sep 24 03:35:33 2013
     </td>
     <td align="right" class="footer">
       <a target="mainFrame" href="http://epydoc.sourceforge.net"

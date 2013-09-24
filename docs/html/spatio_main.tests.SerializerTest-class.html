@@ -3,7 +3,7 @@
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <title>spatio_main.tests.SimpleTest</title>
+  <title>spatio_main.tests.SerializerTest</title>
   <link rel="stylesheet" href="epydoc.css" type="text/css" />
   <script type="text/javascript" src="epydoc.js"></script>
 </head>
@@ -30,7 +30,12 @@
       <th>&nbsp;&nbsp;&nbsp;<a
         href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
-      <th class="navbar" width="100%"></th>
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Spatio-Frontend</th>
+          </tr></table></th>
   </tr>
 </table>
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -39,7 +44,7 @@
       <span class="breadcrumbs">
         <a href="spatio_main-module.html">Package&nbsp;spatio_main</a> ::
         <a href="spatio_main.tests-module.html">Module&nbsp;tests</a> ::
-        Class&nbsp;SimpleTest
+        Class&nbsp;SerializerTest
       </span>
     </td>
     <td>
@@ -49,63 +54,63 @@
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
             >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="spatio_main.tests.SimpleTest-class.html"
+            >]&nbsp;|&nbsp;<a href="spatio_main.tests.SerializerTest-class.html"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class SimpleTest</h1><p class="nomargin-top"><span class="codelink"><a href="spatio_main.tests-pysrc.html#SimpleTest">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class SerializerTest</h1><p class="nomargin-top"><span class="codelink"><a href="spatio_main.tests-pysrc.html#SerializerTest">source&nbsp;code</a></span></p>
 <center>
-<center>  <map id="uml_class_diagram_for_spatio_m_22" name="uml_class_diagram_for_spatio_m_22">
-<area shape="rect" id="node1" href="javascript:void(0);" title="Does basically the same as TransactionTestCase, but surrounds every test with a transaction, monkey&#45;patches the real transaction management routines to do nothing, and rollsback the test transaction at the end of the test." alt="" coords="257,918,468,962"/>
-<area shape="rect" id="node83" href="spatio_main.tests.SimpleTest-class.html#test_basic_addition" title="Tests that 1 + 1 always equals 2." alt="" coords="289,1015,437,1033"/>
-<area shape="rect" id="node2" href="spatio_main.tests.SimpleTest-class.html" title="spatio_main.tests.SimpleTest" alt="" coords="277,982,448,1039"/>
-<area shape="rect" id="node85" href="django.test.client.Client-class.html" title="A class that can act as a client for testing purposes." alt="" coords="17,703,709,721"/>
-<area shape="rect" id="node85" href="javascript:void(0);" title="django.test.testcases.TransactionTestCase.reset_sequences" alt="" coords="17,721,709,740"/>
-<area shape="rect" id="node85" href="javascript:void(0);" title="Asserts that a response indicates that some content was retrieved &#160;successfully, (i.e., the HTTP status code was as expected), and that &#160;``text`` occurs ``count`` times in the content of the response." alt="" coords="17,743,709,761"/>
-<area shape="rect" id="node85" href="javascript:void(0);" title="Asserts that a form used to render the response has a specific field error." alt="" coords="17,761,709,780"/>
-<area shape="rect" id="node85" href="javascript:void(0);" title="Asserts that a response indicates that some content was retrieved &#160;successfully, (i.e., the HTTP status code was as expected), and that &#160;``text`` doesn&#39;t occurs in the content of the response." alt="" coords="17,780,709,799"/>
-<area shape="rect" id="node85" href="javascript:void(0);" title="django.test.testcases.TransactionTestCase.assertNumQueries" alt="" coords="17,799,709,817"/>
-<area shape="rect" id="node85" href="javascript:void(0);" title="django.test.testcases.TransactionTestCase.assertQuerysetEqual" alt="" coords="17,817,709,836"/>
-<area shape="rect" id="node85" href="javascript:void(0);" title="Asserts that a response redirected to a specific URL, and that the redirect URL can be loaded." alt="" coords="17,836,709,855"/>
-<area shape="rect" id="node85" href="javascript:void(0);" title="Asserts that the template with the provided name was NOT used in rendering &#160;the response." alt="" coords="17,855,709,873"/>
-<area shape="rect" id="node85" href="javascript:void(0);" title="Asserts that the template with the provided name was used in rendering the &#160;response." alt="" coords="17,873,709,892"/>
-<area shape="rect" id="node3" href="javascript:void(0);" title="django.test.testcases.TransactionTestCase" alt="" coords="5,678,720,898"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="Wrapper around default __call__ method to perform common Django test set &#160;up." alt="" coords="52,428,676,447"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="Asserts that a form field behaves correctly with various inputs." alt="" coords="52,447,676,465"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="Asserts that two HTML snippets are semantically the same." alt="" coords="52,465,676,484"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="Asserts that two HTML snippets are not semantically equivalent." alt="" coords="52,484,676,503"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="django.test.testcases.SimpleTestCase.assertInHTML" alt="" coords="52,503,676,521"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="django.test.testcases.SimpleTestCase.assertJSONEqual" alt="" coords="52,521,676,540"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="Asserts that the message in a raised exception matches the passed value." alt="" coords="52,540,676,559"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="Asserts that two XML snippets are semantically the same." alt="" coords="52,559,676,577"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="Asserts that two XML snippets are not semantically equivalent." alt="" coords="52,577,676,596"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="Restores the state of the warnings module to the state saved by &#160;save_warnings_state()" alt="" coords="52,596,676,615"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="Saves the state of the warnings module" alt="" coords="52,615,676,633"/>
-<area shape="rect" id="node86" href="javascript:void(0);" title="A context manager that temporarily sets a setting and reverts back to the &#160;original value when exiting the context." alt="" coords="52,633,676,652"/>
-<area shape="rect" id="node4" href="javascript:void(0);" title="django.test.testcases.SimpleTestCase" alt="" coords="40,395,688,658"/>
-<area shape="rect" id="node87" href="exceptions.AssertionError-class.html" title="Assertion failed." alt="" coords="131,31,596,49"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="unittest.case.TestCase.longMessage" alt="" coords="131,49,596,68"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="unittest.case.TestCase.maxDiff" alt="" coords="131,68,596,87"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="unittest.case.TestCase.__eq__" alt="" coords="131,89,596,108"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="hash(x)" alt="" coords="131,108,596,127"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="Create an instance of the class that will use the named test method when &#160;executed." alt="" coords="131,127,596,145"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="unittest.case.TestCase.__ne__" alt="" coords="131,145,596,164"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="repr(x)" alt="" coords="131,164,596,183"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="str(x)" alt="" coords="131,183,596,201"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="Add a function, with arguments, to be called when the test is completed." alt="" coords="131,201,596,220"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="Add a type specific assertEqual style function to compare a type." alt="" coords="131,220,596,239"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="Fail if the two objects are unequal as determined by their difference &#160;rounded to the given number of decimal places (default 7) and comparing to &#160;zero, or by comparing that the between the two objects is more than the &#160;given delta." alt="" coords="131,239,596,257"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="Fail if the two objects are unequal as determined by their difference &#160;rounded to the given number of decimal places (default 7) and comparing to &#160;zero, or by comparing that the between the two objects is more than the &#160;given delta." alt="" coords="131,257,596,276"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="Checks whether actual is a superset of expected." alt="" coords="131,276,596,295"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="unittest.case.TestCase.assertDictEqual" alt="" coords="131,295,596,313"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="Fail if the two objects are unequal as determined by the &#39;==&#39; operator." alt="" coords="131,313,596,332"/>
-<area shape="rect" id="node87" href="javascript:void(0);" title="Hook method for deconstructing the class fixture after running all tests in the class." alt="" coords="131,351,596,369"/>
-<area shape="rect" id="node5" href="javascript:void(0);" title="A class whose instances are single test cases." alt="" coords="119,6,607,375"/>
+<center>  <map id="uml_class_diagram_for_spatio_m_23" name="uml_class_diagram_for_spatio_m_23">
+<area shape="rect" id="node92" href="exceptions.AssertionError-class.html" title="Assertion failed." alt="" coords="131,31,596,49"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="unittest.case.TestCase.longMessage" alt="" coords="131,49,596,68"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="unittest.case.TestCase.maxDiff" alt="" coords="131,68,596,87"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="unittest.case.TestCase.__eq__" alt="" coords="131,89,596,108"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="hash(x)" alt="" coords="131,108,596,127"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="Create an instance of the class that will use the named test method when &#160;executed." alt="" coords="131,127,596,145"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="unittest.case.TestCase.__ne__" alt="" coords="131,145,596,164"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="repr(x)" alt="" coords="131,164,596,183"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="str(x)" alt="" coords="131,183,596,201"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="Add a function, with arguments, to be called when the test is completed." alt="" coords="131,201,596,220"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="Add a type specific assertEqual style function to compare a type." alt="" coords="131,220,596,239"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="Fail if the two objects are unequal as determined by their difference &#160;rounded to the given number of decimal places (default 7) and comparing to &#160;zero, or by comparing that the between the two objects is more than the &#160;given delta." alt="" coords="131,239,596,257"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="Fail if the two objects are unequal as determined by their difference &#160;rounded to the given number of decimal places (default 7) and comparing to &#160;zero, or by comparing that the between the two objects is more than the &#160;given delta." alt="" coords="131,257,596,276"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="Checks whether actual is a superset of expected." alt="" coords="131,276,596,295"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="unittest.case.TestCase.assertDictEqual" alt="" coords="131,295,596,313"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="Fail if the two objects are unequal as determined by the &#39;==&#39; operator." alt="" coords="131,313,596,332"/>
+<area shape="rect" id="node92" href="javascript:void(0);" title="Hook method for deconstructing the class fixture after running all tests in the class." alt="" coords="131,351,596,369"/>
+<area shape="rect" id="node1" href="javascript:void(0);" title="A class whose instances are single test cases." alt="" coords="119,6,607,375"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="Wrapper around default __call__ method to perform common Django test set &#160;up." alt="" coords="52,428,676,447"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="Asserts that a form field behaves correctly with various inputs." alt="" coords="52,447,676,465"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="Asserts that two HTML snippets are semantically the same." alt="" coords="52,465,676,484"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="Asserts that two HTML snippets are not semantically equivalent." alt="" coords="52,484,676,503"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="django.test.testcases.SimpleTestCase.assertInHTML" alt="" coords="52,503,676,521"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="django.test.testcases.SimpleTestCase.assertJSONEqual" alt="" coords="52,521,676,540"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="Asserts that the message in a raised exception matches the passed value." alt="" coords="52,540,676,559"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="Asserts that two XML snippets are semantically the same." alt="" coords="52,559,676,577"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="Asserts that two XML snippets are not semantically equivalent." alt="" coords="52,577,676,596"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="Restores the state of the warnings module to the state saved by &#160;save_warnings_state()" alt="" coords="52,596,676,615"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="Saves the state of the warnings module" alt="" coords="52,615,676,633"/>
+<area shape="rect" id="node91" href="javascript:void(0);" title="A context manager that temporarily sets a setting and reverts back to the &#160;original value when exiting the context." alt="" coords="52,633,676,652"/>
+<area shape="rect" id="node5" href="javascript:void(0);" title="django.test.testcases.SimpleTestCase" alt="" coords="40,395,688,658"/>
+<area shape="rect" id="node2" href="javascript:void(0);" title="Does basically the same as TransactionTestCase, but surrounds every test with a transaction, monkey&#45;patches the real transaction management routines to do nothing, and rollsback the test transaction at the end of the test." alt="" coords="257,918,468,962"/>
+<area shape="rect" id="node88" href="spatio_main.tests.SerializerTest-class.html#test_to_json" title="spatio_main.tests.SerializerTest.test_to_json" alt="" coords="309,1015,417,1033"/>
+<area shape="rect" id="node3" href="spatio_main.tests.SerializerTest-class.html" title="spatio_main.tests.SerializerTest" alt="" coords="297,982,428,1039"/>
+<area shape="rect" id="node90" href="django.test.client.Client-class.html" title="A class that can act as a client for testing purposes." alt="" coords="17,703,709,721"/>
+<area shape="rect" id="node90" href="javascript:void(0);" title="django.test.testcases.TransactionTestCase.reset_sequences" alt="" coords="17,721,709,740"/>
+<area shape="rect" id="node90" href="javascript:void(0);" title="Asserts that a response indicates that some content was retrieved &#160;successfully, (i.e., the HTTP status code was as expected), and that &#160;``text`` occurs ``count`` times in the content of the response." alt="" coords="17,743,709,761"/>
+<area shape="rect" id="node90" href="javascript:void(0);" title="Asserts that a form used to render the response has a specific field error." alt="" coords="17,761,709,780"/>
+<area shape="rect" id="node90" href="javascript:void(0);" title="Asserts that a response indicates that some content was retrieved &#160;successfully, (i.e., the HTTP status code was as expected), and that &#160;``text`` doesn&#39;t occurs in the content of the response." alt="" coords="17,780,709,799"/>
+<area shape="rect" id="node90" href="javascript:void(0);" title="django.test.testcases.TransactionTestCase.assertNumQueries" alt="" coords="17,799,709,817"/>
+<area shape="rect" id="node90" href="javascript:void(0);" title="django.test.testcases.TransactionTestCase.assertQuerysetEqual" alt="" coords="17,817,709,836"/>
+<area shape="rect" id="node90" href="javascript:void(0);" title="Asserts that a response redirected to a specific URL, and that the redirect URL can be loaded." alt="" coords="17,836,709,855"/>
+<area shape="rect" id="node90" href="javascript:void(0);" title="Asserts that the template with the provided name was NOT used in rendering &#160;the response." alt="" coords="17,855,709,873"/>
+<area shape="rect" id="node90" href="javascript:void(0);" title="Asserts that the template with the provided name was used in rendering the &#160;response." alt="" coords="17,873,709,892"/>
+<area shape="rect" id="node4" href="javascript:void(0);" title="django.test.testcases.TransactionTestCase" alt="" coords="5,678,720,898"/>
 </map>
-  <img src="uml_class_diagram_for_spatio_m_22.gif" alt='' usemap="#uml_class_diagram_for_spatio_m_22" ismap="ismap" class="graph-without-title" />
+  <img src="uml_class_diagram_for_spatio_m_23.gif" alt='' usemap="#uml_class_diagram_for_spatio_m_23" ismap="ismap" class="graph-without-title" />
 </center>
 </center>
 <hr />
@@ -160,10 +165,9 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a name="test_basic_addition"></a><span class="summary-sig-name">test_basic_addition</span>(<span class="summary-sig-arg">self</span>)</span><br />
-      Tests that 1 + 1 always equals 2.</td>
+          <td><span class="summary-sig"><a name="test_to_json"></a><span class="summary-sig-name">test_to_json</span>(<span class="summary-sig-arg">self</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="spatio_main.tests-pysrc.html#SimpleTest.test_basic_addition">source&nbsp;code</a></span>
+            <span class="codelink"><a href="spatio_main.tests-pysrc.html#SerializerTest.test_to_json">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -398,13 +402,18 @@
       <th>&nbsp;&nbsp;&nbsp;<a
         href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
-      <th class="navbar" width="100%"></th>
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Spatio-Frontend</th>
+          </tr></table></th>
   </tr>
 </table>
 <table border="0" cellpadding="0" cellspacing="0" width="100%%">
   <tr>
     <td align="left" class="footer">
-    Generated by Epydoc 3.0.1 on Sat Sep 14 11:50:50 2013
+    Generated by Epydoc 3.0.1 on Tue Sep 24 03:35:33 2013
     </td>
     <td align="right" class="footer">
       <a target="mainFrame" href="http://epydoc.sourceforge.net"

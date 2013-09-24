@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.9.14)  14 SEP 2013 11:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.9.14)  24 SEP 2013 03:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,7 +467,8 @@ File: pdfmark.def 2012/05/13 v6.82q Hyperref definitions for pdfmark specials
 
 Writing index file api.idx
 (./api.aux (./spatio_main-module.aux) (./spatio_main.api-module.aux)
-(./spatio_main.migrations-module.aux) (./spatio_main.models-module.aux))
+(./spatio_main.migrations-module.aux) (./spatio_main.models-module.aux)
+(./spatio_main.tests-module.aux) (./spatio_main.views-module.aux))
 \openout1 = `api.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -888,69 +889,10 @@ Overfull \hbox (59.00017pt too wide) in paragraph at lines 739--740
 [][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
  []
 
-
-Overfull \hbox (21.58188pt too wide) in paragraph at lines 799--842
-[] 
- []
-
-[12]
-Overfull \hbox (19.08989pt too wide) in paragraph at lines 860--861
-\OT1/cmr/m/n/12 obj[]get[]list(), obj[]update(), patch[]list(), roll-back(), sa
-ve(), save[]m2m(), save[]related(),
- []
-
-
-Overfull \hbox (5.34248pt too wide) in paragraph at lines 866--867
-[][][]\OT1/cmr/m/n/12 getattr[][](), [][]init[][](), al-ter[]deserialized[]deta
-il[]data(), al-ter[]deserialized[]list[]data(),
- []
-
-
-Overfull \hbox (30.33058pt too wide) in paragraph at lines 866--867
-\OT1/cmr/m/n/12 al-ter[]detail[]data[]to[]serialize(), al-ter[]list[]data[]to[]
-serialize(), ap-ply[]authorization[]limits(),
- []
-
-
-Overfull \hbox (75.52846pt too wide) in paragraph at lines 866--867
-\OT1/cmr/m/n/12 tho-rized[]delete[]list(), au-tho-rized[]read[]detail(), au-tho
--rized[]read[]list(), au-tho-rized[]update[]detail(),
- []
-
-
-Overfull \hbox (20.44765pt too wide) in paragraph at lines 866--867
-\OT1/cmr/m/n/12 au-tho-rized[]update[]list(), base[]urls(), build[]bundle(), bu
-ild[]schema(), cached[]obj[]get(),
- []
-
-
-Overfull \hbox (45.30516pt too wide) in paragraph at lines 866--867
-\OT1/cmr/m/n/12 full[]dehydrate(), full[]hydrate(), gen-er-ate[]cache[]key(), g
-et[]bundle[]detail[]data(), get[]detail(),
- []
-
-
-Overfull \hbox (12.30107pt too wide) in paragraph at lines 866--867
-\OT1/cmr/m/n/12 hy-drate[]m2m(), is[]authenticated(), is[]valid(), log[]throttl
-ed[]access(), method[]check(),
- []
-
-
-Overfull \hbox (6.42613pt too wide) in paragraph at lines 866--867
-\OT1/cmr/m/n/12 over-ride[]urls(), patch[]detail(), post[]detail(), post[]list(
-), prepend[]urls(), put[]detail(),
- []
-
-
-Overfull \hbox (59.00017pt too wide) in paragraph at lines 872--873
-[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
-[][]hash[][](), [][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
- []
-
-[13]) [14]
+) [12]
 \openout2 = `spatio_main.migrations-module.aux'.
 
- (./spatio_main.migrations-module.tex) [15
+ (./spatio_main.migrations-module.tex) [13
 
 
 ]
@@ -963,7 +905,7 @@ Overfull \hbox (3.95854pt too wide) in paragraph at lines 172--173
 [][]new[][](), [][]reduce[]ex[][](), [][]setattr[][](),
  []
 
-[16
+[14
 
 
 ]
@@ -972,7 +914,7 @@ Overfull \hbox (126.74236pt too wide) in paragraph at lines 222--223
 edObjectsDes...|  
  []
 
-[17]
+[15]
 Overfull \hbox (3.95854pt too wide) in paragraph at lines 365--366
 [][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
 [][]new[][](), [][]reduce[]ex[][](), [][]setattr[][](),
@@ -984,31 +926,133 @@ Overfull \hbox (126.74236pt too wide) in paragraph at lines 416--417
 edObjectsDes...|  
  []
 
-[18]
+[16]
 Overfull \hbox (3.95854pt too wide) in paragraph at lines 559--560
 [][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
 [][]new[][](), [][]reduce[]ex[][](), [][]setattr[][](),
  []
 
-[19]
+[17]
 Overfull \hbox (3.95854pt too wide) in paragraph at lines 711--712
 [][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
 [][]new[][](), [][]reduce[]ex[][](), [][]setattr[][](),
  []
 
-[20]
+[18]
 Overfull \hbox (3.95854pt too wide) in paragraph at lines 834--835
 [][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
 [][]new[][](), [][]reduce[]ex[][](), [][]setattr[][](),
  []
 
-[21] [22]
-Overfull \hbox (3.95854pt too wide) in paragraph at lines 980--981
-[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
-[][]new[][](), [][]reduce[]ex[][](), [][]setattr[][](),
+[19]) [20]
+\openout2 = `spatio_main.tests-module.aux'.
+
+ (./spatio_main.tests-module.tex
+Overfull \hbox (2.11845pt too wide) in paragraph at lines 132--133
+[]\OT1/cmr/m/n/12 assertContains(), as-sert-FormEr-ror(), as-sert-Not-Con-tains
+(), as-sert-Num-Queries(), as-
  []
 
-) [23] (./api.ind
+
+Overfull \hbox (1.11017pt too wide) in paragraph at lines 138--139
+\OT1/cmr/m/n/12 sert-In-HTML(), as-sertJ-SONEqual(), as-ser-tRais-esMes-sage(),
+ as-sertXM-LE-qual(), as-
+ []
+
+
+Overfull \hbox (12.3281pt too wide) in paragraph at lines 144--145
+\OT1/cmr/m/n/12 E-qual-i-ty-Func(), as-ser-tAl-mostE-qual(), as-ser-tAl-mostE-q
+uals(), as-sert-Dict-Con-tainsSub-
+ []
+
+
+Overfull \hbox (12.15588pt too wide) in paragraph at lines 144--145
+\OT1/cmr/m/n/12 set(), as-sert-DictE-qual(), as-sertE-qual(), as-sertE-quals(),
+ as-sert-False(), as-sert-Greater(),
+ []
+
+
+Overfull \hbox (5.29622pt too wide) in paragraph at lines 144--145
+\OT1/cmr/m/n/12 ser-tIs-Not(), as-ser-tIs-Not-None(), as-ser-tItem-sE-qual(), a
+s-sert-Less(), as-sert-LessE-qual(),
+ []
+
+
+Overfull \hbox (16.76694pt too wide) in paragraph at lines 144--145
+\OT1/cmr/m/n/12 stance(), as-sert-NotReg-exp-Matches(), as-ser-tRaises(), as-se
+r-tRais-es-Reg-exp(), as-sertReg-
+ []
+
+
+Overfull \hbox (7.31007pt too wide) in paragraph at lines 144--145
+\OT1/cmr/m/n/12 exp-Matches(), as-sert-Se-quenceE-qual(), as-sert-SetE-qual(), 
+as-sert-True(), as-sert-TupleE-
+ []
+
+[21
+
+
+]
+Overfull \hbox (3.2405pt too wide) in paragraph at lines 150--151
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+[22]
+Overfull \hbox (2.11845pt too wide) in paragraph at lines 323--324
+[]\OT1/cmr/m/n/12 assertContains(), as-sert-FormEr-ror(), as-sert-Not-Con-tains
+(), as-sert-Num-Queries(), as-
+ []
+
+
+Overfull \hbox (1.11017pt too wide) in paragraph at lines 329--330
+\OT1/cmr/m/n/12 sert-In-HTML(), as-sertJ-SONEqual(), as-ser-tRais-esMes-sage(),
+ as-sertXM-LE-qual(), as-
+ []
+
+
+Overfull \hbox (12.3281pt too wide) in paragraph at lines 335--336
+\OT1/cmr/m/n/12 E-qual-i-ty-Func(), as-ser-tAl-mostE-qual(), as-ser-tAl-mostE-q
+uals(), as-sert-Dict-Con-tainsSub-
+ []
+
+
+Overfull \hbox (12.15588pt too wide) in paragraph at lines 335--336
+\OT1/cmr/m/n/12 set(), as-sert-DictE-qual(), as-sertE-qual(), as-sertE-quals(),
+ as-sert-False(), as-sert-Greater(),
+ []
+
+
+Overfull \hbox (5.29622pt too wide) in paragraph at lines 335--336
+\OT1/cmr/m/n/12 ser-tIs-Not(), as-ser-tIs-Not-None(), as-ser-tItem-sE-qual(), a
+s-sert-Less(), as-sert-LessE-qual(),
+ []
+
+
+Overfull \hbox (16.76694pt too wide) in paragraph at lines 335--336
+\OT1/cmr/m/n/12 stance(), as-sert-NotReg-exp-Matches(), as-ser-tRaises(), as-se
+r-tRais-es-Reg-exp(), as-sertReg-
+ []
+
+
+Overfull \hbox (7.31007pt too wide) in paragraph at lines 335--336
+\OT1/cmr/m/n/12 exp-Matches(), as-sert-Se-quenceE-qual(), as-sert-SetE-qual(), 
+as-sert-True(), as-sert-TupleE-
+ []
+
+[23]
+Overfull \hbox (3.2405pt too wide) in paragraph at lines 341--342
+[][][]\OT1/cmr/m/n/12 delattr[][](), [][]format[][](), [][]getattribute[][](), 
+[][]new[][](), [][]reduce[][](), [][]reduce[]ex[][](),
+ []
+
+) [24]
+\openout2 = `spatio_main.views-module.aux'.
+
+ (./spatio_main.views-module.tex) [25
+
+
+] (./api.ind
 Overfull \hbox (35.77298pt too wide) in paragraph at lines 5--7
 []| \OT1/cmr/m/n/12 spa-tio[]main.api.CommunitiesResource \OT1/cmr/m/it/12 (cla
 ss)\OT1/cmr/m/n/12 ,
@@ -1039,58 +1083,53 @@ ss)\OT1/cmr/m/n/12 ,
  []
 
 
-Overfull \hbox (37.07019pt too wide) in paragraph at lines 17--19
-[]| \OT1/cmr/m/n/12 spa-tio[]main.api.WlanHotspotResource \OT1/cmr/m/it/12 (cla
-ss)\OT1/cmr/m/n/12 ,
- []
-
-
-Overfull \hbox (2.58165pt too wide) in paragraph at lines 21--23
+Overfull \hbox (2.58165pt too wide) in paragraph at lines 19--21
 []| \OT1/cmr/m/n/12 spa-tio[]main.models.Community \OT1/cmr/m/it/12 (class)\OT1
 /cmr/m/n/12 ,
  []
 
 
-Overfull \hbox (1.76361pt too wide) in paragraph at lines 23--25
+Overfull \hbox (1.76361pt too wide) in paragraph at lines 21--23
 []| \OT1/cmr/m/n/12 spa-tio[]main.models.District \OT1/cmr/m/it/12 (class)\OT1/
 cmr/m/n/12 , [][][][][][]--
  []
 
 
-Overfull \hbox (7.69966pt too wide) in paragraph at lines 25--27
+Overfull \hbox (7.69966pt too wide) in paragraph at lines 23--25
 []| \OT1/cmr/m/n/12 spa-tio[]main.models.HistoricData \OT1/cmr/m/it/12 (class)\
 OT1/cmr/m/n/12 ,
  []
 
 
-Overfull \hbox (8.45244pt too wide) in paragraph at lines 27--29
+Overfull \hbox (8.45244pt too wide) in paragraph at lines 25--27
 []| \OT1/cmr/m/n/12 spa-tio[]main.models.PoliceReport \OT1/cmr/m/it/12 (class)\
 OT1/cmr/m/n/12 ,
  []
 
 
-Overfull \hbox (1.21083pt too wide) in paragraph at lines 29--31
+Overfull \hbox (1.21083pt too wide) in paragraph at lines 27--29
 []| \OT1/cmr/m/n/12 spa-tio[]main.models.State \OT1/cmr/m/it/12 (class)\OT1/cmr
 /m/n/12 , [][][][][][]--[][][][][][] 
  []
 
 
-Overfull \hbox (11.12462pt too wide) in paragraph at lines 31--33
-[]| \OT1/cmr/m/n/12 spa-tio[]main.models.WlanHotspot \OT1/cmr/m/it/12 (class)\O
-T1/cmr/m/n/12 ,
+Overfull \hbox (9.23575pt too wide) in paragraph at lines 30--32
+[]| \OT1/cmr/m/n/12 spa-tio[]main.tests.ModelTests \OT1/cmr/m/it/12 (class)\OT1
+/cmr/m/n/12 , [][][][][][]--
  []
 
-[24
+[26
 
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
  (./api.aux (./spatio_main-module.aux) (./spatio_main.api-module.aux)
-(./spatio_main.migrations-module.aux) (./spatio_main.models-module.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+(./spatio_main.migrations-module.aux) (./spatio_main.models-module.aux)
+(./spatio_main.tests-module.aux) (./spatio_main.views-module.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 126.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 
 
 Package rerunfilecheck Warning: File `api.out' has changed.
@@ -1098,23 +1137,23 @@ Package rerunfilecheck Warning: File `api.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `api.out':
-(rerunfilecheck)             Before: 9C92C78F669F27DD6F9163775D6C1FFC;4250
-(rerunfilecheck)             After:  9166DBC4AB35DC1468B2CE9AD9DE5CA4;4292.
+(rerunfilecheck)             Before: C6C62AC927036341FA96F0CE28F0D888;4488
+(rerunfilecheck)             After:  877F2C3069B5F0CFDE355A1D58D6DCA0;4530.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 5732 strings out of 495060
- 84187 string characters out of 3182053
- 172377 words of memory out of 3000000
- 8806 multiletter control sequences out of 15000+200000
+ 5758 strings out of 495060
+ 84832 string characters out of 3182053
+ 173715 words of memory out of 3000000
+ 8818 multiletter control sequences out of 15000+200000
  13889 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  32i,13n,43p,1390b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on api.dvi (24 pages, 169208 bytes).
+Output written on api.dvi (26 pages, 176436 bytes).

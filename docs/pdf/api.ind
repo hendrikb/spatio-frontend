@@ -1,7 +1,7 @@
 \begin{theindex}
 
   \item spatio\_main \textit{(package)}, \hyperpage{2}
-    \subitem spatio\_main.api \textit{(module)}, \hyperpage{3--13}
+    \subitem spatio\_main.api \textit{(module)}, \hyperpage{3--11}
       \subsubitem spatio\_main.api.CommunitiesResource \textit{(class)}, 
 		\hyperpage{5--7}
       \subsubitem spatio\_main.api.DistrictsResource \textit{(class)}, 
@@ -14,21 +14,23 @@
 		\hyperpage{3--4}
       \subsubitem spatio\_main.api.StatesResource \textit{(class)}, 
 		\hyperpage{4--5}
-      \subsubitem spatio\_main.api.WlanHotspotResource \textit{(class)}, 
-		\hyperpage{11--13}
-    \subitem spatio\_main.migrations \textit{(package)}, \hyperpage{14}
-    \subitem spatio\_main.models \textit{(module)}, \hyperpage{15--22}
+    \subitem spatio\_main.migrations \textit{(package)}, \hyperpage{12}
+    \subitem spatio\_main.models \textit{(module)}, \hyperpage{13--19}
       \subsubitem spatio\_main.models.Community \textit{(class)}, 
-		\hyperpage{16--17}
+		\hyperpage{14--15}
       \subsubitem spatio\_main.models.District \textit{(class)}, 
-		\hyperpage{17--19}
+		\hyperpage{15--17}
       \subsubitem spatio\_main.models.HistoricData \textit{(class)}, 
-		\hyperpage{20--21}
+		\hyperpage{18--19}
       \subsubitem spatio\_main.models.PoliceReport \textit{(class)}, 
-		\hyperpage{19--20}
+		\hyperpage{17--18}
       \subsubitem spatio\_main.models.State \textit{(class)}, 
-		\hyperpage{15--16}
-      \subsubitem spatio\_main.models.WlanHotspot \textit{(class)}, 
-		\hyperpage{21--22}
+		\hyperpage{13--14}
+    \subitem spatio\_main.tests \textit{(module)}, \hyperpage{20--23}
+      \subsubitem spatio\_main.tests.ModelTests \textit{(class)}, 
+		\hyperpage{21--23}
+      \subsubitem spatio\_main.tests.SerializerTest \textit{(class)}, 
+		\hyperpage{20--21}
+    \subitem spatio\_main.views \textit{(module)}, \hyperpage{24}
 
 \end{theindex}

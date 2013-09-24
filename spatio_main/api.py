@@ -21,12 +21,9 @@ class SerializerWithASCII(Serializer):
         options = options or {}
         data = self.to_simple(data, options)
 
-        if django.get_version() >= '1.5':
-            return json.json.dumps(data, cls=json.DjangoJSONEncoder,
+        return json.json.dumps(data, cls=json.DjangoJSONEncoder,
                                    sort_keys=True, ensure_ascii=True)
-        else:
-            return simplejson.dumps(data, cls=json.DjangoJSONEncoder,
-                                    sort_keys=True, ensure_ascii=True)
+
 
 
 class StatesResource(ModelResource):
