@@ -5,3 +5,6 @@ south
 gunicorn
 gevent
 python-memcached
+nose
+coverage
+epydoc
